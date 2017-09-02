@@ -19,7 +19,7 @@ class Poll:
   port = 443;
 
   UA = "Line/6.0.0 iPad4,1 9.0.2"
-  LA = "IOSIPAD 6.0.0 iPhone OS 9.0.2"
+  LA = "DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0"
 
   rev = 0
 
