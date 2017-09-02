@@ -9,6 +9,8 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
+ki = kk = kc = cl 
+
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -66,13 +68,13 @@ helpMessage =""" Chivas Bot
 [Bot cancel]
 [Title:]
 """
-KAC=[cl]
+KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
-# Amid = ki.getProfile().mid
-# Bmid = kk.getProfile().mid
-# Cmid = kc.getProfile().mid
-# Bots=[mid,Amid,Bmid,Cmid]
-Bots=[mid]
+Amid = ki.getProfile().mid
+Bmid = kk.getProfile().mid
+Cmid = kc.getProfile().mid
+
+Bots=[mid,Amid,Bmid,Cmid]
 admin=["YOUR_MID_HERE"]
 wait = {
     'contact':True,
