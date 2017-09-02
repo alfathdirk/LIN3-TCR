@@ -66,12 +66,13 @@ helpMessage =""" Chivas Bot
 [Bot cancel]
 [Title:]
 """
-KAC=[cl,ki,kk,kc]
+KAC=[cl]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Bots=[mid,Amid,Bmid,Cmid]
+# Amid = ki.getProfile().mid
+# Bmid = kk.getProfile().mid
+# Cmid = kc.getProfile().mid
+# Bots=[mid,Amid,Bmid,Cmid]
+Bots=[mid]
 admin=["YOUR_MID_HERE"]
 wait = {
     'contact':True,
