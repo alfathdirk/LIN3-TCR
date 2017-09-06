@@ -771,7 +771,7 @@ def bot(op):
 		for ticket_id in n_links:
 			if wait["atjointicket"] == True:
 				group=cl.findGroupByTicket(ticket_id)
-				cl.acceptGroupInvitationByTicket(op.group.mid,ticket_id)
+				cl.acceptGroupInvitationByTicket(group.mid,ticket_id)
 				cl.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
             elif msg.text == "Ginfo":
                 if msg.toType == 2:
