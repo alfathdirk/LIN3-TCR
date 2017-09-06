@@ -193,6 +193,9 @@ class LINE:
 
   """Group"""
 
+  def findGroupByTicket(self, ticketId):
+        return self.Talk.client.findGroupByTicket(ticketId)
+
   def acceptGroupInvitation(self, groupId):
         return self.Talk.client.acceptGroupInvitation(0, groupId)
 
