@@ -771,7 +771,7 @@ def bot(op):
 		for ticket_id in n_links:
 			if wait["atjointicket"] == True:
 				group=cl.findGroupByTicket(ticket_id)
-				cl.acceptGroupInvitationByTicket(group.mid,ticket_id)
+				cl.acceptGroupInvitationByTicket(group.id,ticket_id)
 				cl.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
             elif msg.text == "Ginfo":
                 if msg.toType == 2:
@@ -1063,6 +1063,8 @@ def bot(op):
                 else:md+=" Auto add : off\n"
                 if wait["commentOn"] == True: md+=" Comment : on\n"
                 else:md+=" Comment : off\n"
+                if wait["atjointicket"] == True: md+=" Auto Join Group by Ticket : on\n"
+                else:md+=" Auto Join Group by Ticket : off\n"
                 cl.sendText(msg.to,md)
             elif "album merit " in msg.text:
                 gid = msg.text.replace("album merit ","")
