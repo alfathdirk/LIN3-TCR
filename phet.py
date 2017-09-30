@@ -15,59 +15,63 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
-[Id︎]
-[Mid]
-[Me︎]
-[TL︎:「Text」]
-[Mc 「mid」]
-[K on/off]
-[Join︎ on/off]
-[Gcancel:︎「Number of people」]
-[Group cancelalll︎]
-[Leave︎ on/off]
-[Add on/off]
-[Share on/off]
-[Message change:「text」]
-[Message check]
-[Confirm]
-[Jam on/off]
-[Change clock:「name」]
-[Up]
-[Cv join]
+helpMessage =""" ❈-ざঝণのঝ฿ΘŧŧĽÎη℮Ŧђάίłάήđ-❈
+✪[บอทสาธาระณะลำใย]✪
+❊[Id︎]
+❊[Mid]
+❊[Me︎]
+❊[TL︎:「Text」]
+❊[Mc 「mid」]
+❊[K on/off]
+❊[Join︎ on/off]
+❊[Gcancel:︎「Number of people」]
+❊[Group cancelalll︎]
+❊[Leave︎ on/off]
+❊[Add on/off]
+❊[Share on/off]
+❊[Message change:「text」]
+❊[Message check]
+❊[Confirm]
+❊[Jam on/off]
+❊[Change clock:「name」]
+❊[Up]
+❊[Cv join]
 
-[*] Command in the groups [*]
+[*] ✪Command in the groups✪ [*]
 
-[Curl]
-[Ourl]
-[url]
-[url:「Group ID」]
-[Invite：「mid」]
-[Kick：「mid」]
-[Ginfo]
-[jointicket]
-[Cancel]
-[Gn 「group name」]
-[Nk 「name」]
+❉[Curl]
+❉[Ourl]
+❉[url]
+❉[url:「Group ID」]
+❉[Invite：「mid」]
+❉[Kick：「mid」]
+❉[Ginfo]
+❉[jointicket]
+❉[Cancel]
+❉[Gn 「group name」]
+❉[Nk 「name」]
 
-[*] Command kicker only [*]
+[*] ✪Command kicker only✪ [*]
 
-[Bye]
-[Kill ban]
-[Kill 「@」]
-[Ban 「@」] By Tag
-[Unban 「@」] By Tag
-[Ban︎] Share Contact
-[Unban︎] Share Contact
-[Banlist︎]
-[Cek ban]
-[Cv mid]
-[Cv ︎invite:「mid」]
-[Cv ︎rename:「name」]
-[Cv ︎gift]
-[Respo︎n]
-[Bot cancel]
-[Title:]
+☢[Bye]
+☢[Kill ban]
+☢[Kill 「@」]
+☢[Ban 「@」] By Tag
+☢[Unban 「@」] By Tag
+☢[Ban︎] Share Contact
+☢[Unban︎] Share Contact
+☢[Banlist︎]
+☢[Cek ban]
+☢[Cv mid]
+☢[Cv ︎invite:「mid」]
+☢[Cv ︎rename:「name」]
+☢[Cv ︎gift]
+☢[Respo︎n]
+☢[Bot cancel]
+☢[Title:]
+[ざঝণのঝ฿ΘŧŧĽÎη℮Ŧђάίłάήđ]
+[Ŧ€₳M✈ທஇລ❂قীள้௭ิњ]
+[http://line.me/ti/p/09T2waRE7l]
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
@@ -92,7 +96,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":"Phet ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
