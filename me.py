@@ -1419,7 +1419,7 @@ def bot(op):
 						wait2['readMember'][msg.to] = ""
 						wait2['ROM'][msg.to] = {}
 						print wait2
-            elif msg.text == "read":
+            elif msg.text == "Read":
 				if msg.from_ in admin:
 						if msg.to in wait2['readPoint']:
 							if wait2["ROM"][msg.to].items() == []:
@@ -1429,7 +1429,6 @@ def bot(op):
 								for rom in wait2["ROM"][msg.to].items():
 									print rom
 									chiya += rom[1] + "\n"
-
 							cl.sendText(msg.to, "Readed By %s\nthat's it\n\nRead tapi gak nongol\n%sCreated by Me ♪\n\nWaktu & Tanggal:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
 						else:
 							cl.sendText(msg.to, "An already read point has not been set.\n「set」you can send ♪ read point will be created ♪")	
@@ -1499,7 +1498,7 @@ def bot(op):
 							G.preventJoinByTicket = True
 							kc.updateGroup(G)
 #-----------------------------------------------
-            elif msg.text in ["Out","out"]:
+            elif msg.text in ["budak left","Budak left","budak leave"]:
 				if msg.from_ in admin:
 					if msg.toType == 2:
 						ginfo = cl.getGroup(msg.to)
@@ -1623,10 +1622,10 @@ def bot(op):
 								except:
 									ki.sendText(msg.to,"B")
 									kk.sendText(msg.to,"B")
-            elif "Nk " in msg.text:
+            elif "kick " in msg.text:
 				if msg.from_ in admin:
 					if msg.from_ in admin:
-						nk0 = msg.text.replace("Nk ","")
+						nk0 = msg.text.replace("kick ","")
 						nk1 = nk0.lstrip()
 						nk2 = nk1.replace("@","")
 						nk3 = nk2.rstrip()
@@ -1647,8 +1646,8 @@ def bot(op):
 										kicker.kickoutFromGroup(msg.to,[target])
 										print (msg.to,[g.mid])
 									except:
-										ki.sendText(msg.to,"Succes Cv")
-										kk.sendText(msg.to,"Fuck You")
+										ki.sendText(msg.to,"Cot..")
+										kk.sendText(msg.to,"Lama..")
             elif "Blacklist @ " in msg.text:
 				if msg.from_ in admin:
 					_name = msg.text.replace("Blacklist @ ","")
@@ -1722,9 +1721,9 @@ def bot(op):
 				if msg.from_ in admin:
 					ki.sendText(msg.to,"Siap Bos 􀨁Me..􏿿")
 #-----------------------------------------------
-            elif msg.text in ["bot","dak"]:
+            elif msg.text in ["budak","dak"]:
 				if msg.from_ in admin:
-					ki.sendText(msg.to,"Ya Bos 􀨁Me disini..􏿿")
+					ki.sendText(msg.to,"Ya Bos 􀨁Me, saya disini..􏿿")
 #-----------------------------------------------
             elif "Bot" in msg.text:
 				if msg.from_ in admin:
