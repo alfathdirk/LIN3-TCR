@@ -24,7 +24,7 @@ copas linknya,, lalu klik link,, klik lg log in
 Jika tidak sengaja Termux tertutup atau error,
 untuk menjalankan lagi/ambil link lg cukup pake perintah ini
 
-sh url.sh /SelfBot
+sh /SelfBot/url.sh
 
 atau
 
