@@ -1,16 +1,20 @@
-# -*- coding: utf-8 -*-
-
-import KITSUNEBOT
-from KITSUNEBOT.lib.curve.ttypes import *
-from datetime import datetime
-import time,random,sys,re,os,json,subprocess,codecs,threading,glob
-
-cl = KITSUNEBOT.LINE()
-cl.login(token="EkLNDAidJNfdDwMwdfy0.2FTkdazYWi0R8COWQKRcOa.rAXlC8TnJsO+iFSPCLQDKCjlb3FZcMRZx2J4udmM2v4=")
-cl.loginResult()
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
+@@ -0,0 +1,1832 @@
+ +# -*- coding: utf-8 -*-
+ +
+ +import LINETCR
+ +from LINETCR.lib.curve.ttypes import *
+ +from datetime import datetime
+ +import time,random,sys,json,codecs,threading,glob,re
+ +
+ +cl = LINETCR.LINE()
+ +cl.login(qr=True)
+ +cl.loginResult()
+ +
+ +ki = kk = kc = cl 
+ +
+ +print "login success"
+ +reload(sys)
+ +sys.setdefaultencoding('utf-8')
 
 helpMessage ="""=====[K̶̷̲̅I̶̷̲̅T̶̷̲̅ ̶̷̲̅S̶̷̲̅U̶̷̲̅N̶̷̲̅E̶̷̲̅]=====
 
