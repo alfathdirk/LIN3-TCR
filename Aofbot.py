@@ -956,15 +956,6 @@ def bot(op):
                     cl.sendText(msg.to,"Aku menolak semua undangan")
                 else:
                     cl.sendText(msg.to,"He declined all invitations")
-			elif msg.text in ["Cancelall","ล้างคำเชิญ","ลบรัน"]:
-                gid = cl.getGroupIdsInvited()
-                for i in gid:
-                    cl.rejectGroupInvitation(i)
-                if wait["lang"] == "JP":
-                    cl.sendText(msg.to,"All invitations have been refused🔥")
-                    cl.sendText(msg.to,"คุณได้ล้างคำเชิญทั้งหมดเรียบร้อยเเล้ว..🔥")
-                else:
-                    cl.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
             elif "Album deleted:" in msg.text:
                 gid = msg.text.replace("Album deleted:","")
                 albums = cl.getAlbum(gid)["result"]["items"]
