@@ -28,7 +28,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 􀜁􀇔􏿿 [Group cancel]
 􀜁􀇔􏿿 [Tagall]
 􀜁􀇔􏿿 [แอบ]
-􀜁􀇔􏿿 [อ่าน]
+􀜁􀇔􏿿 [ส่อง]
 􀜁􀇔􏿿 [album 「id」]
 􀜁􀇔􏿿 [Hapus album 「id」
 􀜁􀇔􏿿 [Contact on] 
@@ -88,7 +88,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
   
             ✯==== Creator ====✯
 	
-		http://line.me/ti/p/~hyly2009
+		http://line.me/ti/p/~0647706747
    
 	        ⋆⋆[Selfbot Thailand]⋆⋆
 """
@@ -100,48 +100,26 @@ Amid = kk.getProfile().mid
 Bmid = ki.getProfile().mid
 Cmid = kc.getProfile().mid
 Bots = [mid,Amid,Bmid,Cmid,]
-admin = ["ub9a9df4a8ca2b87a626dc46262408bb3"]
+admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 staff = [""]
 adminMID = [""]
 
 wait = {
     'contact':False,
     'autoJoin':False,
-    'autoCancel':{"on":True,"members":50},
+    'autoCancel':{"on":True,"members":1},
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"""THX FOR ADD : 
-ﺴನҨబัथន์ﺴ
-
-⇱ढेণઈຣัю ℓທω७ูທ❂७⇲
-
-🔫ℓℓი๊७👓ււՁ่юஇำ👓 :
-
-
-🔥องค์กรกำจัดสวะออนไลน์🔥:
-Fc🔥🥇ゆণ₷ี🎖ĤËËທ❂ଏのำ🏅
-ढेণՁๆໄঝ่่რ้მ७πနิ๊௭
-ШՁпঝึقໄঝ่่რ้өقпदัՁ Ωูঝণເधืმथ
-иี่ШՁπ௮ึსთ้მ७नஇຈำ
-ढे่❂و
-❂ઈ่ণℓढेื❂π 
-৳இ่ะ৳७ื❂π πะढेั่ю
-ℓπລีধஇπูωูπのმთণধतິ
-ໄ௮່௮ิღຮのतັʊໄຫथໄ௮່Ծ∂ʊℓのနีઇန໌
-Գのန
-
-           ﺴನҨబัथន์ﺴ
-🛡 http://line.me/ti/p/~hyly2009 🛡
-""",
+    'message':"Owner. Nhu : ID:0647706747",
     "lang":"JP",
-    "comment":"Thanks For Add Me",
+    "comment":"Owner. Nhu : ID:0647706747",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"ನҨబัथន์",
+    "cName":"Nhu",
     "cNames":"",
     "blacklist":{},
     "wblacklist":False,
@@ -2307,7 +2285,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by : ﺴನҨబัथន์ﺴ\nhttp://line.me/ti/p/~hyly2009")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by : Nhu")
             print "Like"
           except:
             pass
