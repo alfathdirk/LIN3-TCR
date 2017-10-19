@@ -36,11 +36,14 @@ class LINE:
 
     self.authToken = self.Talk.authToken
     self.cert = self.Talk.cert
-
+    self._headers = {
+              'X-Line-Application': 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0', 
+              'X-Line-Access': self.authToken, 
+              'User-Agent': 'Line/6.0.0 iPad4,1 9.0.2'
+   }
     self.Poll = Poll(self.authToken)
     self.channel = channel.Channel(self.authToken)
-    self.channel.login()
-
+    self.channel.login()	
     self.mid = self.channel.mid
     self.channel_access_token = self.channel.channel_access_token
     self.token = self.channel.token
@@ -91,11 +94,14 @@ class LINE:
         msg.text = text
 
         return self.Talk.client.sendMessage(0, msg)
+  def post_content(self, url, data=None, files=None):
+        return self._session.post(url, headers=self._headers, data=data, files=files)
+
   def sendImage(self, to_, path):
-        M = Message(to=to_,contentType = 1)
+        M = Message(to=to_, text=None, contentType = 1)
         M.contentMetadata = None
         M.contentPreview = None
-        M_id = self._client.sendMessage(M).id
+        M_id = self.Talk.client.sendMessage(0,M).id
         files = {
             'file': open(path, 'rb'),
         }
@@ -107,13 +113,34 @@ class LINE:
             'ver': '1.0',
         }
         data = {
-            'params': json.dumps(params)
-        }
-        r = self._client.post_content('https://os.line.naver.jp/talk/m/upload.nhn', data=data, files=files)
+            'params': json.dumps(params)            
+        }       
+
+        r = self.post_content('https://os.line.naver.jp/talk/m/upload.nhn', data=data, files=files)
+        print r
         if r.status_code != 201:
             raise Exception('Upload image failure.')
-        #r.content
         return True
+
+  def sendImageWithURL(self, to_, url):
+        """Send a image with given image url
+
+        :param url: image url to send
+        """
+        path = 'tmp/pythonLine.data'
+
+        r = requests.get(url, stream=True)
+        if r.status_code == 200:
+            with open(path, 'w') as f:
+                shutil.copyfileobj(r.raw, f)
+        else:
+            raise Exception('Download image failure.')
+
+        try:
+            self.sendImage(to_, path)
+        except Exception as e:
+            raise e
+			
   def sendEvent(self, messageObject):
         return self._client.sendEvent(0, messageObject)
 

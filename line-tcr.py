@@ -1668,6 +1668,49 @@ def bot(op):
                 kk.sendText(msg.to, "%sseconds" % (elapsed_time))
                 kc.sendText(msg.to, "%sseconds" % (elapsed_time))
 
+#------------------------------------------------------------------	
+            elif "Steal home @" in msg.text:            
+                print "[Command]dp executing"
+                _name = msg.text.replace("Steal home @","")
+                _nametarget = _name.rstrip('  ')
+                gs = cl.getGroup(msg.to)
+                targets = []
+                for g in gs.members:
+                    if _nametarget == g.displayName:
+                        targets.append(g.mid)
+                if targets == []:
+                    ki.sendText(msg.to,"Contact not found")
+                else:
+                    for target in targets:
+                        try:
+                            contact = cl.getContact(target)
+                            cu = cl.channel.getCover(target)
+                            path = str(cu)
+                            cl.sendImageWithURL(msg.to, path)
+                        except:
+                            pass
+                print "[Command]dp executed"			
+#------------------------------------------------------------------
+            elif "Steal dp @" in msg.text:            
+                print "[Command]dp executing"
+                _name = msg.text.replace("Steal dp @","")
+                _nametarget = _name.rstrip('  ')
+                gs = cl.getGroup(msg.to)
+                targets = []
+                for g in gs.members:
+                    if _nametarget == g.displayName:
+                        targets.append(g.mid)
+                if targets == []:
+                    ki.sendText(msg.to,"Contact not found")
+                else:
+                    for target in targets:
+                        try:
+                            contact = cl.getContact(target)
+                            path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
+                            cl.sendImageWithURL(msg.to, path)
+                        except:
+                            pass
+                print "[Command]dp executed"			
 #------------------------------------------------------------------
             elif msg.text in ["Ban"]:
                 wait["wblacklist"] = True
@@ -1749,7 +1792,8 @@ def bot(op):
                             group.name = name
                             cl.updateGroup(group)
                     except:
-                        cl.sendText(msg.to,"Error")
+                        cl.sendText(msg.to,"Error")	
+				
             elif "albumâ†’" in msg.text:
                 try:
                     albumtags = msg.text.replace("albumâ†’","")
@@ -1769,7 +1813,7 @@ def bot(op):
                     try:
                         cl.sendText(msg.to,str(e))
                     except:
-                        pass
+                        pass			
         if op.type == 59:
             print op
 
