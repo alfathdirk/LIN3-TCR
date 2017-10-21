@@ -9,13 +9,17 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
+Ki =LINETCR.LINE
+ki.login(qr=True)
+ki.loginResult()
+
 ki = kk = kc = cl 
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
+helpMessage =""" kie Bot
 [Id︎]
 [Mid]
 [Me︎]
@@ -390,10 +394,10 @@ def bot(op):
         if op.type == 22:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 24:
+        if op.type == 26:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
