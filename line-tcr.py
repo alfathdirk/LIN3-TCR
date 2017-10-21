@@ -9,6 +9,10 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
+ki = LINETCR.LINE
+ki.login(qr=True)
+ki.loginResult()
+
 ki = kk = kc = cl 
 
 print "login success"
@@ -76,7 +80,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["YOUR_MID_HERE"]
+admin=["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 wait = {
     'contact':True,
     'autoJoin':True,
