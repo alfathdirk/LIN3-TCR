@@ -1,2 +1,0 @@
-# LIN3-TCR
-Line TCR aka LINEALPHA 
