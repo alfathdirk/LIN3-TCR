@@ -119,7 +119,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"Nhu",
+    "cName":"Nunu",
     "cNames":"",
     "blacklist":{},
     "wblacklist":False,
