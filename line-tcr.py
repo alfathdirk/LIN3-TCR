@@ -93,15 +93,15 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Thanks for add me",Nunu,
+    'message':"Thanks for add me by.Nunu
     "lang":"JP",
-    "comment":"Thanks for add me",Nunu,
+    "comment":"Thanks for add me by.Nunu
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":" Nunu ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
