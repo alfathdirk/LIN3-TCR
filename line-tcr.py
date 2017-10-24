@@ -109,7 +109,7 @@ wait = {
     "protectionOn":True
     }
 
- = {
+{
     'readPoint':{},
     'readMember':{},
     'setTime':{},
