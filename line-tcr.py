@@ -23,7 +23,7 @@ kc.loginResult()
 
 cl
 
-print "login success"
+print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -102,14 +102,14 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":" By.NUNU",
+    "cName":" By.Nunu",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
     "protectionOn":True
     }
 
-wait2 = {
+ = {
     'readPoint':{},
     'readMember':{},
     'setTime':{},
