@@ -121,7 +121,7 @@ setTime = wait2['setTime']
 
 def sendMessage(to, text, contentMetadata={}, contentType=0):
     mes = Message()
-    mes.to, mes.from_ = to, profile.mid
+    mes.to, mes.from_ = to, profile.u2c7f708769a2eb35d9ae9f73cd366e0b
     mes.text = text
     mes.contentType, mes.contentMetadata = contentType, contentMetadata
     if to not in messageReq:
