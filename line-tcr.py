@@ -16,6 +16,8 @@ ki = LineAlpha.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
+cl
+
 kc = LineAlpha.LINE()
 kc.login(qr=True)
 kc.loginResult()
