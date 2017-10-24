@@ -109,7 +109,7 @@ wait = {
     "protectionOn":True
     }
 
-wait2 = {
+wait1 = {
     'readPoint':{},
     'readMember':{},
     'setTime':{},
@@ -117,7 +117,7 @@ wait2 = {
     }
 
 setTime = {}
-setTime = wait2['setTime']
+setTime = wait1['setTime']
 
 def sendMessage(to, text, contentMetadata={}, contentType=0):
     mes = Message()
@@ -130,9 +130,9 @@ def sendMessage(to, text, contentMetadata={}, contentType=0):
 
 def NOTIFIED_READ_MESSAGE(op):
     try:
-        if op.param1 in wait2['readPoint']:
+        if op.param1 in wait1['readPoint']:
             Name = cl.getContact(op.param2).displayName
-            if Name in wait2['readMember'][op.param1]:
+            if Name in wait1['readMember'][op.param1]:
                 pass
             else:
                 wait2['readMember'][op.param1] += "\n・" + Name
