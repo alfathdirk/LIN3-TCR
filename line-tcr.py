@@ -109,7 +109,7 @@ wait = {
     "protectionOn":True
     }
 
-{
+wait2 = {
     'readPoint':{},
     'readMember':{},
     'setTime':{},
@@ -118,7 +118,6 @@ wait = {
 
 setTime = {}
 setTime = wait2['setTime']
-
 
 def sendMessage(to, text, contentMetadata={}, contentType=0):
     mes = Message()
