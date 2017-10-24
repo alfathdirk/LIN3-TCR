@@ -5,23 +5,23 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
-cl = LineAlpha.LINE()
+cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-kk = LineAlpha.LINE()
+kk = LINETCR.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-ki = LineAlpha.LINE()
+ki = LINETCR.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
-cl
-
-kc = LineAlpha.LINE()
+kc = LINETCR.LINE()
 kc.login(qr=True)
 kc.loginResult()
+
+cl
 
 print "login success"
 reload(sys)
