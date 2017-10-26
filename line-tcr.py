@@ -9,7 +9,15 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = kk = kc = ky = cl 
+ki = LINETCR.LINE()
+ki.login(qr=True)
+ki.loginResult()
+
+ki2 = LINETCR.LINE()
+ki2.login(qr=True)
+ki2.loginResult()
+
+cl ki = ki2 
 
 print u"login success"
 reload(sys)
@@ -94,12 +102,11 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 """
 helo=""
 
-KAC=[cl,ki,kk,kc]
+KAC=[cl , ki , ki2 ,]
 mid = cl.getProfile().mid
-Amid = kk.getProfile().mid
-Bmid = ki.getProfile().mid
-Cmid = kc.getProfile().mid
-Bots = [mid,Amid,Bmid,Cmid,]
+Amid = ki.getProfile().mid
+Bmid = ki3.getProfile().mid
+Bots = [mid,Amid,Bmid,]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 staff = [""]
 adminMID = [""]
