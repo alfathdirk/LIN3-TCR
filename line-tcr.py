@@ -106,7 +106,6 @@ KAC=[cl , ki , ki2 ,]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = ki2.getProfile().mid
-Cmid = ki3.getProfile().mid
 Bots = [mid,Amid,Bmid,Cmid,]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 staff = [""]
