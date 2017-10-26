@@ -9,7 +9,7 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE()
+ki= LINETCR.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
@@ -17,7 +17,7 @@ ki2 = LINETCR.LINE()
 ki2.login(qr=True)
 ki2.loginResult()
 
-cl ki = ki2 
+cl = ki = ki2 = ki3
 
 print u"login success"
 reload(sys)
@@ -102,7 +102,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 """
 helo=""
 
-KAC=[cl , ki , ki2 ,]
+KAC=[cl , ki , ki2 , ki3 ,]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = ki2.getProfile().mid
