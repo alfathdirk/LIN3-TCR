@@ -17,7 +17,7 @@ ki2 = LINETCR.LINE()
 ki2.login(qr=True)
 ki2.loginResult()
 
-cl = ki = ki2
+ ki = ki2 = cl
 
 print u"login success"
 reload(sys)
@@ -100,9 +100,8 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
    
 	        ⋆⋆[Selfbot Thailand]⋆⋆
 """
-helo=""
-
-KAC=[cl , ki , ki2 ,]
+helo =""
+KAC = [cl , ki , ki2 ,]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = ki2.getProfile().mid
