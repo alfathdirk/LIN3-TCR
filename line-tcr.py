@@ -102,7 +102,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 """
 helo=""
 
-KAC=[cl , ki , ki2 , ki3 ,]
+KAC=[cl , ki , ki2 .]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = ki2.getProfile().mid
