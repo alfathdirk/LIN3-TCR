@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
-import LineAlpha
-from LineAlpha.lib.Gen.ttypes import Message
+import LINETCR
+from LINETCR.lib.Gen.ttypes import Message
 from datetime import datetime
 from io import StringIO
 import time,random,sys,json,codecs,threading,glob
 
-cl = LineAlpha.LINE()
+cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LineAlpha.LINE()
+ki = LINETCR.LINE()
 ki.login(qr=True)   
 ki.loginResult()
 
-ki2 = LineAlpha.LINE()
+ki2 = LINETCR.LINE()
 ki2.login(qr=True)
 ki2.loginResult()
 print u"login success"
