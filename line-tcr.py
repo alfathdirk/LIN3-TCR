@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 import LINETCR
 from LINETCR.lib.Gen.ttypes import Message
 from datetime import datetime
