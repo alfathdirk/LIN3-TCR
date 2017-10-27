@@ -69,7 +69,6 @@ helpMessage =""" Chivas Bot
 [Bot cancel]
 [Title:]
 """
-KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
