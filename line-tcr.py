@@ -83,6 +83,9 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 k2mid = ki2.getProfile().mid
 
+admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+staff = [""]
+adminMID = [""]
 
 wait = {
     'contact':True,
