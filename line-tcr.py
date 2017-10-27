@@ -17,7 +17,7 @@ ki2 = LINETCR.LINE()
 ki2.login(qr=True)
 ki2.loginResult()
 
- ki = ki2 = cl
+cl = ki = ki2 
 
 print u"login success"
 reload(sys)
