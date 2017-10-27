@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # Edited from script LineVodka script made by Merkremont
-from LineAlpha import LineClient
-from LineAlpha.LineApi import LineTracer
-from LineAlpha.LineThrift.ttypes import Message
-from LineAlpha.LineThrift.TalkService import Client
+from LINETCR import LineClient
+from LINETCR.LineApi import LineTracer
+from LINETCF.LineThrift.ttypes import Message
+from LINETCR.LineThrift.TalkService import Client
 import time, datetime, random ,sys, re, string, os, json
 
 reload(sys)
