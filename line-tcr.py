@@ -1944,7 +1944,7 @@ def bot(op):
 
     #-------------Fungsi Leave Group Start---------------#
             elif msg.text in ["Pulang","Bye All"]:
-              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+              if msg.from_ in admin:["mid"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -1960,7 +1960,7 @@ def bot(op):
                     except:
                         pass
             elif msg.text in ["Bye say1"]:
-              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+              if msg.from_ in admin:["mid"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -1968,7 +1968,7 @@ def bot(op):
                     except:
                         pass
             elif msg.text in ["Bye say2"]:
-              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+              if msg.from_ in admin:["mid"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -1976,7 +1976,7 @@ def bot(op):
                     except:
                         pass
             elif msg.text in ["Bye say3"]:
-              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+              if msg.from_ in admin:["mid"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
