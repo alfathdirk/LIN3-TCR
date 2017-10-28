@@ -1,9 +1,11 @@
-BotProtect
+# LINE TCR
+Forked from LINEALPHA [MerkKremont]
 
-Menggunakan script LineVodka dari MerKremont dan dicampur script LIN3-TCR dari alfathdirk
+fixing some error and delete unusable code 
 
-Cara install sama seperti BotKick / Line Vodka / LIN3-TCR
- 
-
-Fungsi :
-Saat ada yang mencoba mengusir 1 member dari grup, bot otomatis akan mengusir Kicker tersebut dari grup
+## Require to install
+```
+pip install rsa
+pip install request
+pip install thrift==0.9.3
+```
