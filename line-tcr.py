@@ -773,16 +773,16 @@ def bot(op):
             msg = op.message
             if msg.contentType == 13:
                if wait["wblack"] == True:
-                    if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["commentBlack"]:
+                    if msg.contentMetadata["mid"] in wait["commentBlack"]:
                         cl.sendText(msg.to,"already")
                         wait["wblack"] = False
                     else:
-                        wait["commentBlack"][msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"]] = True
+                        wait["commentBlack"][msg.contentMetadata["mid"]] = True
                         wait["wblack"] = False
                         cl.sendText(msg.to,"decided not to comment")
 
                elif wait["dblack"] == True:
-                   if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["commentBlack"]:
+                   if msg.contentMetadata["mjd"] in wait["commentBlack"]:
                         del wait["commentBlack"][msg.contentMetadata["mid"]]
                         cl.sendText(msg.to,"deleted")
                         ki.sendText(msg.to,"deleted")
@@ -812,7 +812,7 @@ def bot(op):
                         kc.sendText(msg.to,"aded")
 
                elif wait["dblacklist"] == True:
-                   if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["blacklist"]:
+                   if msg.contentMetadata["mid"] in wait["blacklist"]:
                         del wait["blacklist"][msg.contentMetadata["mid"]]
                         cl.sendText(msg.to,"deleted")
                         ki.sendText(msg.to,"deleted")
