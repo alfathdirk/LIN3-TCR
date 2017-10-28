@@ -20,7 +20,7 @@ kk = LINETCR.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-cl = ki = kk
+kc = kk = ka ks = cl
 
 print "login success"
 reload(sys)
@@ -83,7 +83,7 @@ helpMessage2 ="""-⚠™ -
 👊[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
 	
 """
-KAC = [cl,ki,kk,]
+KAC = [cl,ki,kk,ks,kc,ka ]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
