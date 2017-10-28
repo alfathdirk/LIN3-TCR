@@ -20,8 +20,8 @@ kk = LINETCR.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-kc = kk 
-ka = ks
+kk = ks = ki
+kc = kk = ki
 cl
 
 print "login success"
@@ -105,7 +105,7 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 
-admins = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+admins = ["uc7f32bb28dc009916d40af87c9910ddc"]
 Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
