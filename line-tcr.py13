@@ -20,7 +20,9 @@ kk = LINETCR.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-kc = kk = ka ks = cl
+kc = kk 
+ka = ks
+cl
 
 print "login success"
 reload(sys)
