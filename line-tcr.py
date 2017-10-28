@@ -2070,7 +2070,7 @@ def bot(op):
                     kk.sendText(msg.to,"makasih semuanya..")
                     kc.sendText(msg.to,"hehehhehe")
                     msg.contentType = 13
-                    msg.contentMetadata = {'mid': mid}
+                    msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b': mid}
                     ks.sendMessage(msg)
                     targets = []
                     for g in gs.members:
