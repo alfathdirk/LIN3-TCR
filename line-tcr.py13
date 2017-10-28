@@ -17,7 +17,7 @@ ki.login(qr=True)
 ki.loginResult()
 
 kk = ks = ki
-kc = kk = ki
+kc = ka = ki
 cl
 
 print "login success"
