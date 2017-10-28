@@ -81,7 +81,7 @@ helpMessage2 ="""-⚠™ -
 👊[ƁԼƠƇƘƖƝƔƖƬЄ: ƠƝ/ƠƑƑ]:  
 	
 """
-KAC = [cl,ki,kk,ks,kc,ka]
+KAC = [cl,ki,kk,]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
