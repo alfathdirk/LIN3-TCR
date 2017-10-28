@@ -20,18 +20,6 @@ kk = LINETCR.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-ks = LINETCR.LINE()
-ks.login(qr=True)
-ks.loginResult()
-
-kc = LINETCR.LINE()
-kc.login(qr=True)
-kc.loginResult()
-
-ka = LINETCR.LINE()
-ka.login(qr=True)
-ka.loginResult()
-
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -100,7 +88,7 @@ kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
-admin = ["ub736c5b1794f5aa30026d162d07ce5e6","u406133ad4d3fbe50a2f4d51ea081d050"]
+admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b","u406133ad4d3fbe50a2f4d51ea081d050"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
@@ -113,7 +101,7 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 
-admins = ["ub736c5b1794f5aa30026d162d07ce5e6"]
+admins = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
