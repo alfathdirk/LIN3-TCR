@@ -782,7 +782,7 @@ def bot(op):
                         cl.sendText(msg.to,"decided not to comment")
 
                elif wait["dblack"] == True:
-                   if msg.contentMetadata["mjd"] in wait["commentBlack"]:
+                   if msg.contentMetadata["mid"] in wait["commentBlack"]:
                         del wait["commentBlack"][msg.contentMetadata["mid"]]
                         cl.sendText(msg.to,"deleted")
                         ki.sendText(msg.to,"deleted")
@@ -797,7 +797,7 @@ def bot(op):
                         kk.sendText(msg.to,"It is not in the black list")
                         kc.sendText(msg.to,"It is not in the black list")
                elif wait["wblacklist"] == True:
-                   if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["blacklist"]:
+                   if msg.contentMetadata["mid"] in wait["blacklist"]:
                         cl.sendText(msg.to,"already")
                         ki.sendText(msg.to,"already")
                         kk.sendText(msg.to,"already")
@@ -975,7 +975,7 @@ def bot(op):
                 kk.sendMessage(msg)
             elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Gift"]:
                 msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
+                msg.contentMetadata={'PRDID': 'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '5'}
                 msg.text = None
@@ -1225,7 +1225,7 @@ def bot(op):
             elif msg.text in ["Wkwkwk","Wkwk","Wk","wkwkwk","wkwk","wk"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "100",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1235,7 +1235,7 @@ def bot(op):
             elif msg.text in ["Hehehe","Hehe","He","hehehe","hehe","he"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "10",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1244,7 +1244,7 @@ def bot(op):
             elif msg.text in ["Galau"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "9",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1253,7 +1253,7 @@ def bot(op):
             elif msg.text in ["You"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "7",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1262,7 +1262,7 @@ def bot(op):
             elif msg.text in ["Hadeuh"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "6",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1271,7 +1271,7 @@ def bot(op):
             elif msg.text in ["Please"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "4",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1280,7 +1280,7 @@ def bot(op):
             elif msg.text in ["Haaa"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "3",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1289,7 +1289,7 @@ def bot(op):
             elif msg.text in ["Lol"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "110",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1298,7 +1298,7 @@ def bot(op):
             elif msg.text in ["Hmmm","Hmm","Hm","hmmm","hmm","hm"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "101",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
@@ -1306,7 +1306,7 @@ def bot(op):
             elif msg.text in ["Welcome"]:
                 msg.contentType = 7
                 msg.text = None
-                msg.contentMetadata = {
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                      "STKID": "247",
                                      "STKPKGID": "3",
                                      "STKVER": "100" }
