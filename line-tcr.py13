@@ -18,7 +18,6 @@ ki.loginResult()
 
 kk =LINETCR.LINE(
 kk.login(qr=True)
-kk.loginResult()
 
 kk = ks = ki
 kc = ka = ki
