@@ -16,10 +16,6 @@ ki = LINETCR.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
-ka = LINETCR.LINE
-ka.login(qr=True)
-ka.loginResult()
-
 kk = ks = ki
 kc = ka = ki
 cl
