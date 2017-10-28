@@ -9,6 +9,14 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
+ki = LINETCR.LINE()
+ki.login(qr=True)
+ki.loginResult()
+
+kk=LINETCR.LINE()
+kk.login(qr=True)
+kk.loginResult()
+
 ki = kk = kc = cl 
 
 print "login success"
@@ -765,16 +773,16 @@ def bot(op):
             msg = op.message
             if msg.contentType == 13:
                if wait["wblack"] == True:
-                    if msg.contentMetadata["mid"] in wait["commentBlack"]:
+                    if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["commentBlack"]:
                         cl.sendText(msg.to,"already")
                         wait["wblack"] = False
                     else:
-                        wait["commentBlack"][msg.contentMetadata["mid"]] = True
+                        wait["commentBlack"][msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"]] = True
                         wait["wblack"] = False
                         cl.sendText(msg.to,"decided not to comment")
 
                elif wait["dblack"] == True:
-                   if msg.contentMetadata["mid"] in wait["commentBlack"]:
+                   if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["commentBlack"]:
                         del wait["commentBlack"][msg.contentMetadata["mid"]]
                         cl.sendText(msg.to,"deleted")
                         ki.sendText(msg.to,"deleted")
@@ -789,7 +797,7 @@ def bot(op):
                         kk.sendText(msg.to,"It is not in the black list")
                         kc.sendText(msg.to,"It is not in the black list")
                elif wait["wblacklist"] == True:
-                   if msg.contentMetadata["mid"] in wait["blacklist"]:
+                   if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["blacklist"]:
                         cl.sendText(msg.to,"already")
                         ki.sendText(msg.to,"already")
                         kk.sendText(msg.to,"already")
@@ -804,7 +812,7 @@ def bot(op):
                         kc.sendText(msg.to,"aded")
 
                elif wait["dblacklist"] == True:
-                   if msg.contentMetadata["mid"] in wait["blacklist"]:
+                   if msg.contentMetadata["u2c7f708769a2eb35d9ae9f73cd366e0b"] in wait["blacklist"]:
                         del wait["blacklist"][msg.contentMetadata["mid"]]
                         cl.sendText(msg.to,"deleted")
                         ki.sendText(msg.to,"deleted")
@@ -923,15 +931,15 @@ def bot(op):
                 kc.inviteIntoGroup(msg.to,[midd])
             elif msg.text in ["Bot"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': mid}
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b': mid}
                 cl.sendMessage(msg)
 
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': Amid}
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b': Amid}
                 ki.sendMessage(msg)
 
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': Bmid}
+                msg.contentMetadata = {'u2c7f708769a2eb35d9ae9f73cd366e0b': Bmid}
                 kk.sendMessage(msg)
 
                 msg.contentType = 13
@@ -974,21 +982,21 @@ def bot(op):
                 cl.sendMessage(msg)
             elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Say1 gift"]:
                 msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
+                msg.contentMetadata={'PRDID': 'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '6'}
                 msg.text = None
                 ki.sendMessage(msg)
             elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Say2 gift"]:
                 msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
+                msg.contentMetadata={'PRDID': 'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '8'}
                 msg.text = None
                 kk.sendMessage(msg)
             elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Say3 gift"]:
                 msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
+                msg.contentMetadata={'PRDID': 'u2c7f708769a2eb35d9ae9f73cd366e0b',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '10'}
                 msg.text = None
@@ -1936,7 +1944,7 @@ def bot(op):
 
     #-------------Fungsi Leave Group Start---------------#
             elif msg.text in ["Pulang","Bye All"]:
-              if msg.from_ in admin:
+              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -1952,7 +1960,7 @@ def bot(op):
                     except:
                         pass
             elif msg.text in ["Bye say1"]:
-              if msg.from_ in admin:
+              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -1960,7 +1968,7 @@ def bot(op):
                     except:
                         pass
             elif msg.text in ["Bye say2"]:
-              if msg.from_ in admin:
+              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -1968,7 +1976,7 @@ def bot(op):
                     except:
                         pass
             elif msg.text in ["Bye say3"]:
-              if msg.from_ in admin:
+              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -2029,7 +2037,7 @@ def bot(op):
 
          #----------------Fungsi Banned Kick Target Start-----------------------#
             elif msg.text in ["Kill "]:
-              if msg.from_ in admin:
+              if msg.from_ in admin:["u2c7f708769a2eb35d9ae9f73cd366e0b"]
                 if msg.toType == 2:
                     group = ki.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.members]
