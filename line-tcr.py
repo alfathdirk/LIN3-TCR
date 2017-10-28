@@ -52,7 +52,7 @@ helpMessage =""" 👑 BOT Menu V.3👑
 ♍[Say 1/2/3 join] Invite Bot
 ♍[Bye Say 1/2/3]  Leave Bot
 
-̶✍̶̶ե̶̶ҽ̶̶α̶̶ต̶ ̶ճ̶̶օ̶̶ե̶ ̶հ̶̶α̶̶ղ̶̶s̶̶k̶̶í̶̶l̶̶l̶̶s̶✈
+By.Nunu:http://line.me/ti/p/ShgslAPyYS 
 """
 
 Setgroup =""" ⛎Privasi Menu V.1⛎
