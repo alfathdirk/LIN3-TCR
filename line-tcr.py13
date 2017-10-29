@@ -62,8 +62,8 @@ helpMessage ="""By.Nunu:Bot v2.1
 👊[Ban " @Tag]: 
 👊[Unban " @Tag]: 
 👊[Urlon]: "Open urL"
-👊[Urloff]: "Closed urL"
-👊[Url]: " Check urL room"
+👊[ปิดลิ้งค์]: "Closed urL"
+👊[ลิ้งค์]: " Check urL room"
 👊[Ginfo]: "~÷~ data room"
 👊[Invite: "mid"]: 
 👊[Say: "Text"]: "Kicker talk"
@@ -71,7 +71,8 @@ helpMessage ="""By.Nunu:Bot v2.1
 👊[Gn: "name"]: "Change name Group"
 👊[NK: "Name"]: ~÷~
 👊[Dead]: "Kick Blacklist"
-
+       By.Nunu
+      http://line.me/ti/p/ShgslAPyYS  
 """
 helpMessage2 ="""-⚠™ -
 
@@ -599,7 +600,7 @@ def bot(op):
                         cl.sendText(msg.to,"It can't be used besides the group。")
                     else:
                         cl.sendText(msg.to,"Impossible use besides")
-            elif msg.text in ["Urloff"]:
+            elif msg.text in ["ปิดลิ้งค์"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     group.preventJoinByTicket = True
@@ -880,7 +881,7 @@ def bot(op):
                 for i in gid:
                     g += "[%s]:%s\n" % (cl.getGroup(i).name,i)
                 cl.sendText(msg.to,g)
-            elif msg.text in ["Reject"]:
+            elif msg.text in ["ลบรัน"]:
                 gid = cl.getGroupIdsInvited()
                 for i in gid:
                     cl.rejectGroupInvitation(i)
@@ -1047,7 +1048,7 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     cl.sendMessage(msg) 
-            elif "เข้า" in msg.text:
+            elif "คิก" in msg.text:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
