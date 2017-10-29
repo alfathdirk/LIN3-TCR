@@ -1394,7 +1394,7 @@ def bot(op):
                 kc.sendText(msg.to,"ƁƠƬ ԼƖƝЄ 4")
                 ka.sendText(msg.to,"ƁƠƬ ԼƖƝЄ 5")
 #----------------------------------------------------------
-            elif msg.text == "Setlastpoint":
+            elif msg.text == "นับ":
               if msg.from_ in admin:
                 cl.sendText(msg.to, "ƧЄƬ ƬHЄ ԼƛƧƬƧЄЄƝƧ' ƤƠƖƝƬ(｀・ω・´)")
                 try:
@@ -1408,7 +1408,7 @@ def bot(op):
                 wait2['setTime'][msg.to] = datetime.strftime(now2,"%H:%M")
                 wait2['ROM'][msg.to] = {}
                 print wait2
-            elif msg.text == "Viewlastseen":
+            elif msg.text == "ใครแอบ":
               if msg.from_ in admin:
 		  if msg.to in wait2['readPoint']:
 	            if wait2["ROM"][msg.to].items() == []:
@@ -1521,7 +1521,7 @@ def bot(op):
             elif "#test" in msg.text:
                 ks.sendText(msg.to,"ok")
 #-----------------------------------------------
-            elif "Speed" in msg.text:
+            elif "สปีด" in msg.text:
                 start = time.time()
                 cl.sendText(msg.to, "ƛƇƇЄƧƧ ƧƤЄЄƊ ƜƛƖƬƖƝƓ")
                 elapsed_time = time.time() - start
