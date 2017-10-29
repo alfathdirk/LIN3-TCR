@@ -950,7 +950,7 @@ def bot(op):
                 else:
                     wait["lang"] = "JP"
                     cl.sendText(msg.to,". The language was made English。")
-            elif msg.text in ["Url"]:
+            elif msg.text in ["ลิ้งค์"]:
                 if msg.toType == 2:
                     x = cl.getGroup(msg.to)
                     if x.preventJoinByTicket == True:
@@ -1032,7 +1032,7 @@ def bot(op):
                     cl.sendText(msg.to,"It was renewed。")
                 else:
                     cl.sendText(msg.to,"Please turn on a name clock.。")
-            elif "Tag all" in msg.text:
+            elif "แท๊ก" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
                 for j in xrange(k+1):
@@ -1047,7 +1047,7 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     cl.sendMessage(msg) 
-            elif "Kicker" in msg.text:
+            elif "เข้า" in msg.text:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
@@ -1098,7 +1098,7 @@ def bot(op):
                   ks.updateGroup(G)
                   Ticket = ks.reissueGroupTicket(msg.to)                           
 
-            elif msg.text in ["Bye"]:
+            elif msg.text in ["ออก"]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
