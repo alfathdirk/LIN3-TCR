@@ -855,7 +855,7 @@ def bot(op):
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"Already。")                        
-            elif "Set" == msg.text:
+            elif "ตั้งค่า" == msg.text:
                 md = ""
                 if wait["contact"] == True: md+="✔ Contact → on \n"       
                 else: md+="❌ Contact → off \n"      
