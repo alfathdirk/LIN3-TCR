@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" 👑 BOT Menu V.3👑
+helpMessage =""" 👑 Bot. V.3👑
 
 􀔃􀅕👑Selfbot.ŋีಖଏדЮ✫নმ௮₷ণજัゆ۩ 👑
 
