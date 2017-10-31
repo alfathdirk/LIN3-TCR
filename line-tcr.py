@@ -17,7 +17,7 @@ ki = kk = ks = kc = ka = cl
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""By.Nunu:Bot v2.1 
+วิธีใช้Message ="""By.Nunu:Bot v2.1 
   
 🍀[Id]: ~÷~
 🍀[Mid]: ~÷~
