@@ -1042,7 +1042,7 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     cl.sendMessage(msg) 
-            elif "คิก" in msg.text:
+            elif "Kicker" in msg.text:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
@@ -1093,7 +1093,7 @@ def bot(op):
                   ks.updateGroup(G)
                   Ticket = ks.reissueGroupTicket(msg.to)                           
 
-            elif msg.text in ["ออก"]:
+            elif msg.text in ["Bye"]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
