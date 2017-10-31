@@ -12,6 +12,8 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
+kk = ks = ki
+kc = ka = ki
 cl
 
 print "login success"
