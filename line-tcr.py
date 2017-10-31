@@ -12,12 +12,6 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(qr=True)
-ki.loginResult()
-
-kk = ks = ki
-kc = ka = ki
 cl
 
 print "login success"
@@ -124,7 +118,7 @@ wait = {
     'autoAdd':False,
     'message':"Thanks add meBy.Nunu : http://line.me/ti/p/ShgslAPyYS  ",
     "lang":"JP",
-    "comment":"Auto like 👉By.Nunu👈 : http://line.me/ti/p/ShgslAPyYS  ",
+    "comment":"Auto like 💗Love💗 : http://line.me/ti/p/ShgslAPyYS  ",
     "likeOn":False,
     "commentOn":False,
     "commentBlack":{},
