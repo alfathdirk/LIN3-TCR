@@ -32,14 +32,10 @@ ka = LINETCR.LINE()
 ka.login(qr=True)
 ka.loginResult()
 
-kk = ks = ki
-kc = ka = ki
-cl
-
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""คำสั่งทั้งหมด
+helpMessage ="""By.bot.v3
   
 👊[Id]: ~÷~
 👊[Mid]: ~÷~
@@ -118,10 +114,10 @@ autoinvite = []
 autoleaveroom = []
 
 admins = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
-Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx2 = ["ua51ba06b0dd18c0bfe2cc6caa3458202"]
+Rx5 = ["u3932583e57ca5590bf875e9ed90627fa"]
+Rx4 = ["u3932583e57ca5590bf875e9ed90627fa"]
+Rx3 = ["uda539eeaf99baac3a3bf45c9d92f1cad"]
+Rx2 = ["ub4043866b3ce63c9808897c12f4f5f04"]
 Rx1 = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 Administrator = admins + Rx5 + Rx4 + Rx3 + Rx2 + Rx1
 AS = Rx2 + Rx1 + Rx3 + Rx4 + Rx5
