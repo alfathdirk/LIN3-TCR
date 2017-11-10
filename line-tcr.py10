@@ -145,6 +145,10 @@ Rx1 = ["uc7f32bb28dc009916d40af87c9910ddc"]
 Administrator = admins  + Rx6 + Rx5 + Rx4 + Rx3 + Rx2 + Rx1
 AS = Rx2 + Rx1 + Rx3 + Rx4 + Rx5 + Rx6 +
 adminsA = admins + Rx3 + Rx5
+
+omikuzi = ["大吉","中吉","小吉","末吉","大凶","凶"]
+
+
 wait = {
     'contact':False,
     'autoJoin':False,
