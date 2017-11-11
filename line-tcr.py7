@@ -1236,7 +1236,7 @@ def bot(op):
                   ks.updateGroup(G)
                   Ticket = ka.reissueGroupTicket(msg.to)
 
-            elif msg.text in ["Bye"]:
+            elif msg.text in ["B."]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
