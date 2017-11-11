@@ -1241,16 +1241,12 @@ def bot(op):
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
-					ki.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
-					ki.leaveGroup(msg.to)
-					kk.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
-					kk.leaveGroup(msg.to)
-					ks.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
-					ks.leaveGroup(msg.to)
-					kc.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
-					kc.leaveGroup(msg.to)
-					ka.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
-					ka.leaveGroup(msg.to)
+					cl.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
+					ki.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")		
+					kk.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")			
+					ks.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
+					kc.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")				
+					ka.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
                 except:
                      pass            
             #---------------FUNGSI RATAIN GRUP TANPA KICK SESAMA BOT/Admin/Bots----------#
