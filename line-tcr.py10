@@ -14,23 +14,23 @@ ki.login(token="EmQkZ6XBE9rDZaYgQ7Q4.Taq4zRpoy8MaIjFbl09Fba.ZIdyHmcPNBXi0snVt4OA
 ki.loginResult()
 
 ki2 = LINETCR.LINE() 
-ki2.login(token="Emksz94lyGCo6O8RWG3a.otjypLFkvzc+H16E2qyN/G.RsTpPKkjLE0A1Tdz1f+dre0HYA8qU8+5skIHG1OY4I0=")
+ki2.login(qr=True)
 ki2.loginResult()
 
 ki3 = LINETCR.LINE() 
-ki3.login(token="EmYftFB6QkRTULazeKEd.2LoE6VMBQSoJV0xj2s8CRq.wyMysG0xOvSJlXvJ1BBEKV2XK73dyB/UMBfJ1N3k/ko=")
+ki3.login(qr=True)
 ki3.loginResult()
 
 ki4 = LINETCR.LINE() 
-ki4.login(token="EmT9cc8JIvI4E13GVRX1.g6FOp0t4PxDBHY58MdDjSq.NnHhgtPsVW50H+MmLA9I9qN2y9M8s+Wr7kvgRNOqaB0=")
+ki4.login(qr=True)
 ki4.loginResult()
 
 ki5 = LINETCR.LINE() 
-ki5.login(token="EmnmiD4H00UuabqUOMp2.lCQlKffPrDvJ4C9I01fB4G.v6DkR7stdm0eMvNIReSDDi3NEOn4pdJTNgAJHM/mccA=")
+ki5.login(qr=True)
 ki5.loginResult()
 
 ki6 = LINETCR.LINE() 
-ki6.login(token="Emvy84cqw3YGuJLVKx24.nVVrGx/cv6f5b03ArGFU5a.wUy0upL5qWGSjHwa0GT+rc3vx3XWSm7nf6oHBM+diHg=")
+ki6.login(qr=True)
 ki6.loginResult()
 
 
@@ -2336,21 +2336,21 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Joshua\n\nhttp://line.me/ti/p/~joshuasiregaar")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Nunu\n\nhttp://line.me/ti/p/~0647706747")
             ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Joshua\n\nhttp://line.me/ti/p/~joshuasiregaar ")
+            ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Nunu\n\nhttp://line.me/ti/p/~0647706747 ")
             ki1.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Joshua\n\nhttp://line.me/ti/p/~joshuasiregaar ")
+            ki1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Nunu\n\nhttp://line.me/ti/p/~0647706747 ")
             ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like Joshua\n\nhttp://line.me/ti/p/~joshuasiregaar ")
+            ki2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like Nunu\n\nhttp://line.me/ti/p/~0647706747")
             ki3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Joshua\n\nhttp://line.me/ti/p/~joshuasiregaar ")
+            ki3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Nunu\n\nhttp://line.me/ti/p/~0647706747 ")
             ki4.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki4.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Joshua\n\nhttp://line.me/ti/p/~joshuasiregaar ")
+            ki4.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Nunu\n\nhttp://line.me/ti/p/~0647706747")
             ki5.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki5.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Joshua\n\nhttp://line.me/ti/p/~joshuasiregaar ")
+            ki5.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Nunu\n\nhttp://line.me/ti/p/~0647706747")
             ki6.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki6.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Opan\n\nhttp://line.me/ti/p/UsMcg-BUfr")
+            ki6.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by Nunu\n\nhttp://line.me/ti/p/UsMcg-BUfr")
             print "Like"
           except:
             pass
