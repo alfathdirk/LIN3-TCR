@@ -1187,18 +1187,18 @@ def bot(op):
                 else:
                     cl.sendText(msg.to,"Silahkan Aktifkan Nama")
 
-            elif "Nk " in msg.text:
-                       nk0 = msg.text.replace("Nk ","")
+            elif "c. " in msg.text:
+                       nk0 = msg.text.replace("c. ","")
                        nk1 = nk0.lstrip()
                        nk2 = nk1.replace("@","")
                        nk3 = nk2.rstrip()
                        _name = nk3
-                       gs = cl.getGroup(msg.to)
-                       ginfo = cl.getGroup(msg.to)
+                       gs = ki.getGroup(msg.to)
+                       ginfo = ki.getGroup(msg.to)
                        gs.preventJoinByTicket = False
-                       cl.updateGroup(gs)
+                       ki.updateGroup(gs)
                        invsend = 0
-                       Ticket = cl.reissueGroupTicket(msg.to)
+                       Ticket = ki.reissueGroupTicket(msg.to)
                        ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                        time.sleep(0.2)
                        targets = []
@@ -1215,11 +1215,11 @@ def bot(op):
                                     print (msg.to,[g.mid])
                                 except:
                                     ki3.leaveGroup(msg.to)
-                                    gs = cl.getGroup(msg.to)
+                                    gs = ki.getGroup(msg.to)
                         	    gs.preventJoinByTicket = True
-                        	    cl.updateGroup(gs)
+                        	    ki.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
-                        	    cl.updateGroup(gs)
+                        	    ki.updateGroup(gs)
 #-----------------------------------------------------------
 
             elif ("Bunuh " in msg.text):
@@ -1253,7 +1253,7 @@ def bot(op):
             elif "Beb " in msg.text:                  
                        nk0 = msg.text.replace("Beb ","")
                        nk1 = nk0.lstrip()
-                       nk2 = nk1.replace("","")
+                       nk2 = nk1.replace("@","")
                        nk3 = nk2.rstrip()
                        _name = nk3
                        gs = cl.getGroup(msg.to)
@@ -1637,7 +1637,7 @@ def bot(op):
                 ki6.sendText(msg.to, "%sseconds" % (elapsed_time))
 
 #-----------------------------------------------
-            elif msg.text.lower() == 'ah yang':
+            elif msg.text.lower() == 'n.':
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -1799,11 +1799,11 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki6.updateGroup(G)
 #-----------------------------------------------
-            elif msg.text.lower() == 'uh yang':
+            elif msg.text.lower() == 'y.':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        cl.sendText(msg.to,"􀜁􀇔􏿿Bye Bye😘 "  +  str(ginfo.name)  + "")
+                        cl.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
                         ki.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
