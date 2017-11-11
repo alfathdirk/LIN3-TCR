@@ -9,27 +9,27 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="Emz4JsLDn70cFLaM4IBb.lh9WH2MI6ZxzRP9ZZtzUcW.xUQ9Qv6IQ9jmmy/mEpriJZPbngYXPT1Q+JDl6Ox3Xd0=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="EmMVfHw8U7vECVGcJyT4.Taq4zRpoy8MaIjFbl09Fba.G9Q+9mfG2EyPsY3fZj7k4ryzmR0olihaG5yezqd3pxM=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token="EmgStef1HnfG3lzlEwoa.otjypLFkvzc+H16E2qyN/G.p+KwgbrecFAQgLHC0J4xMwTtzFaMfksqYIwCC4uY0AA=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(qr=True)
+ks.login(token="Em5TGxb1lCMHjHnpBuMd.2LoE6VMBQSoJV0xj2s8CRq.rT3AaL5Ig2P4B77cvwqt9BWag+Tn1fKBhi3zu6jdE50=")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(qr=True)
+kc.login(token="EmvgCB15S4IEwSQnclM1.g6FOp0t4PxDBHY58MdDjSq.DYlxwaqEkUcQwJTSeRCzfWn+SjatKPdqYRL3dTDS+PM=")
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(qr=True)
+ka.login(token="Emq8ZgwJbABRnslZQsg2.lCQlKffPrDvJ4C9I01fB4G.62m7Kwv984027A3pg/ozFgafNOPk71lUSvDHnbHJedA=")
 ka.loginResult()
 
 print "login success"
