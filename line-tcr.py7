@@ -1814,8 +1814,8 @@ def bot(op):
                     ka.sendText(msg.to," " + string + " ")    
 
 #-----------------------------------------------
-          elif msg.text in ["Sp","Speed","speed"]:
-                start = time.time()
+          elif "Speed" in msg.text:
+                start = time.time()		              
                 cl.sendText(msg.to, "Bot  Processing Request")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))
