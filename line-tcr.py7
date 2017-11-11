@@ -1240,12 +1240,12 @@ def bot(op):
             elif msg.text in ["B."]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
-                try:					
-					ki.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")		
-					kk.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")			
-					ks.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
-					kc.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")				
-					ka.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
+                try:			
+					ki.leaveGroup(msg.to)
+					kk.leaveGroup(msg.to)
+					ks.leaveGroup(msg.to)
+					kc.leaveGroup(msg.to)
+					ka.leaveGroup(msg.to)
                 except:
                      pass            
             #---------------FUNGSI RATAIN GRUP TANPA KICK SESAMA BOT/Admin/Bots----------#
