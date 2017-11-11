@@ -2,11 +2,8 @@
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
-from io import StringIO
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,sys
-import re,string,os
-import os.path,sys,urllib,shutil,subprocess
+import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 cl = LINETCR.LINE()
 cl.login(qr=True)
@@ -1162,7 +1159,7 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     cl.sendMessage(msg) 
-            elif "Kicker" in msg.text:
+            elif "K." in msg.text:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
@@ -1675,6 +1672,8 @@ def bot(op):
                 ki.sendText(msg.to,"ƤƠƝƓ 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
                 kk.sendText(msg.to,"ƤƠƝƓ 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
                 ks.sendText(msg.to,"ƤƠƝƓ 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
+		kc.sendText(msg.to,"ƤƠƝƓ 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
+		ka.sendText(msg.to,"ƤƠƝƓ 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
 #----------------------------------------------------------
             elif msg.text in ["Respon","respon","responsename"]:
                 cl.sendText(msg.to,"ƊƛƑƬƛƦ ƛƘƲƝ ƁƠƬ ԼƖƝЄ Ɣ.2.1 👇👇")
@@ -1810,21 +1809,16 @@ def bot(op):
                     ka.sendText(msg.to," " + string + " ")    
 
 #-----------------------------------------------
-            elif "Speed" in msg.text:
+          elif msg.text in ["Sp","Speed","speed"]:
                 start = time.time()
-                cl.sendText(msg.to, "ƛƇƇЄƧƧ ƧƤЄЄƊ ƜƛƖƬƖƝƓ")
+                cl.sendText(msg.to, "Bot  Processing Request")
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                ki.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                kk.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                ks.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                kc.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                ka.sendText(msg.to, "%sseconds" % (elapsed_time))  
+                cl.sendText(msg.to, "%sseconds" % (elapsed_time))
+                ki.sendText(msg.to, "%sseconds" % (elapsed_time))
+                kk.sendText(msg.to, "%sseconds" % (elapsed_time))
+                ks.sendText(msg.to, "%sseconds" % (elapsed_time))
+                kc.sendText(msg.to, "%sseconds" % (elapsed_time))
+                ka.sendText(msg.to, "%sseconds" % (elapsed_time))            
 #-----------------------------------------------             
         if op.type == 19:
             try:
