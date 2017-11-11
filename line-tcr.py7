@@ -1817,8 +1817,7 @@ def bot(op):
                     ka.sendText(msg.to," " + string + " ")    
 
 #-----------------------------------------------
-
-          elif msg.text in ["Sp","Speed","speed"]:
+         elif msg.text in ["Sp","Speed","speed"]:
                 start = time.time()		              
                 cl.sendText(msg.to, "Bot  Processing Request")
                 elapsed_time = time.time() - start
@@ -1827,8 +1826,7 @@ def bot(op):
                 kk.sendText(msg.to, "%sseconds" % (elapsed_time))
                 ks.sendText(msg.to, "%sseconds" % (elapsed_time))
                 kc.sendText(msg.to, "%sseconds" % (elapsed_time))
-                ka.sendText(msg.to, "%sseconds" % (elapsed_time))    
-		
+                ka.sendText(msg.to, "%sseconds" % (elapsed_time))    		
 #-----------------------------------------------             
         if op.type == 19:
             try:
