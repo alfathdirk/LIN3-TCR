@@ -1240,8 +1240,7 @@ def bot(op):
             elif msg.text in ["B."]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
-                try:
-					cl.sendText(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
+                try:					
 					ki.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")		
 					kk.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")			
 					ks.leaveGroup(msg.to,"ลา ก่อย ลาก่อย😘 "  +  str(ginfo.name)  + "")
