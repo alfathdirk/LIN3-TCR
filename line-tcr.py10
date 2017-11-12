@@ -34,15 +34,15 @@ ki6.login(qr=True)
 ki6.loginResult()
 
 
-#ki4 = KITSUNEBOT.LINE()
+#ki4 = LINETCR.LINE()
 #ki4.login(qr=True)
 #ki4.loginResult()
 
-#ki5 = KITSUNEBOT.LINE()
+#ki5 = LINETCR.LINE()
 #ki5.login(qr=True)
 #ki5.loginResult()
 
-#ki6 = KITSUNEBOT.LINE()
+#ki6 = LINETCR.LINE()
 #ki6.login(qr=True)
 #ki6.loginResult()
 
