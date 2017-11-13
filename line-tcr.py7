@@ -122,11 +122,11 @@ autoinvite = []
 autoleaveroom = []
 
 admins = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
-Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx2 = ["ua51ba06b0dd18c0bfe2cc6caa3458202"]
-Rx1 = ["uc7f32bb28dc009916d40af87c9910ddc"]
+Rx5 = ["u36fbd1817f8257a179074dda4607eee4"]
+Rx4 = ["u2dca8b90516945d563e1cf62d3515be2"]
+Rx3 = ["uf7975d14fc686523347c83a7d9570332"]
+Rx2 = ["u33fab009d719040149bce490cfe33929"]
+Rx1 = ["ub4043866b3ce63c9808897c12f4f5f04"]
 Administrator = admins + Rx5 + Rx4 + Rx3 + Rx2 + Rx1
 AS = Rx2 + Rx1 + Rx3 + Rx4 + Rx5
 adminsA = admins + Rx3 + Rx5
@@ -375,7 +375,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u7c6053763344625bb1159355020c5c27":
+                if msg.from_ == "u2c7f708769a2eb35d9ae9f73cd366e0b":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -1297,7 +1297,7 @@ def bot(op):
                     else:
                         pass
             elif "K1 kick" in msg.text:
-				OWN = "u406133ad4d3fbe50a2f4d51ea081d050"
+				OWN = "ub4043866b3ce63c9808897c12f4f5f04","u2c7f708769a2eb35d9ae9f73cd366e0b "
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1323,7 +1323,7 @@ def bot(op):
 									ki.kickoutFromGroup(msg.to, [target])							   
 									pass
             elif "K2 kick" in msg.text:
-				OWN = "ua51ba06b0dd18c0bfe2cc6caa3458202"
+				OWN = "u33fab009d719040149bce490cfe33929","u2c7f708769a2eb35d9ae9f73cd366e0b"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1350,7 +1350,7 @@ def bot(op):
 									pass
 
             elif "K3 kick" in msg.text:
-				OWN = "u34a9af3a18784280147fc413a68a77fd"
+				OWN = "uf7975d14fc686523347c83a7d9570332","u2c7f708769a2eb35d9ae9f73cd366e0b"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1377,7 +1377,7 @@ def bot(op):
 									pass									
 
             elif "K4 kick" in msg.text:
-				OWN = "u34a9af3a18784280147fc413a68a77fd"
+				OWN = "u2dca8b90516945d563e1cf62d3515be2","u2c7f708769a2eb35d9ae9f73cd366e0b"
 				if msg.from_ in OWN:
 					pass
 				else:
