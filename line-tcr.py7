@@ -1685,7 +1685,7 @@ def bot(op):
 #----------------------------------------------------------
             elif msg.text == "Setlastpoint":
               if msg.from_ in admin:
-                cl.sendText(msg.to, "ƧЄƬ ƬHЄ ԼƛƧƬƧЄЄƝƧ' ƤƠƖƝƬ(｀・ω・´)")
+                ki.sendText(msg.to, "ƧЄƬ ƬHЄ ԼƛƧƬƧЄЄƝƧ' ƤƠƖƝƬ(｀・ω・´)")
                 try:
                   del wait2['readPoint'][msg.to]
                   del wait2['readMember'][msg.to]
@@ -1708,9 +1708,9 @@ def bot(op):
 	                print rom
 	                chiya += rom[1] + "\n"
 
-	            cl.sendText(msg.to, " %s\n\n\nPeople who have ignored reads\n(｀・ω・´)\n%s\n\nThese anu anu uesrs have seen at the lastseen point(｀・ω・´)\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+	            kk.sendText(msg.to, " %s\n\n\nPeople who have ignored reads\n(｀・ω・´)\n%s\n\nThese anu anu uesrs have seen at the lastseen point(｀・ω・´)\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
 	          else:
-	            cl.sendText(msg.to, "Sider ga bisa di read cek setpoint dulu bego tinggal ketik\nSetlastpoint\nkalo mau liat sider ketik\nViewlastseen")
+	            kk.sendText(msg.to, "Sider ga bisa di read cek setpoint dulu bego tinggal ketik\nSetlastpoint\nkalo mau liat sider ketik\nViewlastseen")
 #-----------------------------------------------------------speed
             elif msg.text in ["Ban"]:
                 wait["wblacklist"] = True
