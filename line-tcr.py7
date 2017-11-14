@@ -466,12 +466,12 @@ def bot(op):
                     cl.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
-            elif msg.text in ["help","Help","HELP"]:
+            elif msg.text in ["help","Help","คำสั่ง"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage)
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["key","Key","KEY"]:
+            elif msg.text in ["key","Key","ลอค"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage2)
                 else:
@@ -618,9 +618,9 @@ def bot(op):
                                     'MSGTPL': '3'}
                 msg.text = None
                 ks.sendMessage(msg)
-            elif msg.text in ["cancel","Cancel"]:
+            elif msg.text in ["cancel","Cancel","ยกเชิน"]:
                 if msg.toType == 2:
-                    group = cl.getGroup(msg.to)
+                    group = cl.getGroup(msg.to)		    
                     if group.invitee is not None:
                         gInviMids = [contact.mid for contact in group.invitee]
                         cl.cancelGroupInvitation(msg.to, gInviMids)
@@ -635,7 +635,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"Impossible use besides")
 
-            elif msg.text in ["K1 cancel"]:
+            elif msg.text in ["K1 cancel","1 cancel"]:
                 if msg.toType == 2:
                     group = ki.getGroup(msg.to)
                     if group.invitee is not None:
@@ -682,11 +682,21 @@ def bot(op):
                 ##cl.sendMessage(msg)
             elif msg.text in ["Block url:on"]:
                 protecturl.append(msg.to)
-                cl.sendText(msg.to,"ƊƠƝЄ")
+                cl.sendText(msg.to,"ป้องกันลิ้งค์")
+		ki.sendText(msg.to,"ป้องกันลิ้งค์")
+		kk.sendText(msg.to,"ป้องกันลิ้งค์")
+		ks.sendText(msg.to,"ป้องกันลิ้งค์")
+		kc.sendText(msg.to,"ป้องกันลิ้งค์")
+		ka.sendText(msg.to,"ป้องกันลิ้งค์")
             elif msg.text in ["Block url:off"]:
                 if msg.from_ in Administrator:
                     protecturl.remove(msg.to)
-                    cl.sendText(msg.to,"ƛԼԼƠƜЄƊ")
+                    cl.sendText(msg.to,"เลิกป้องกันลิ้งค์")
+		    ki.sendText(msg.to,"เลิกป้องกันลิ้งค์")
+		    kk.sendText(msg.to,"เลิกป้องกันลิ้งค์")
+		    ks.sendText(msg.to,"เลิกป้องกันลิ้งค์")
+		    kc.sendText(msg.to,"เลิกป้องกันลิ้งค์")
+		    ka.sendText(msg.to,"เลิกป้องกันลิ้งค์")
                 else:
                     cl.sendText(msg.to,"ƛԼƦЄƛƊƳ")
             elif msg.text in ["Urlon"]:
@@ -703,7 +713,7 @@ def bot(op):
                         cl.sendText(msg.to,"It can't be used besides the group。")
                     else:
                         cl.sendText(msg.to,"Impossible use besides")
-            elif msg.text in ["Urloff"]:
+            elif msg.text in ["Urloff","ปิดลิ้ง"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     group.preventJoinByTicket = True
@@ -1683,7 +1693,7 @@ def bot(op):
                 ka.sendText(msg.to,"ƁƠƬ ԼƖƝЄ 5")
                 cl.sendText(msg.to,"ƜЄ ƜƖԼԼ ƘЄЄƤ ƳƠƲƦ ƓƦƠƲƤ😂🔫")
 #----------------------------------------------------------
-            elif msg.text == "Setlastpoint":
+            elif msg.text == "Setlastpoint","นับ":
               if msg.from_ in admin:
                 ki.sendText(msg.to, "ƧЄƬ ƬHЄ ԼƛƧƬƧЄЄƝƧ' ƤƠƖƝƬ(｀・ω・´)")
                 try:
@@ -1697,7 +1707,7 @@ def bot(op):
                 wait2['setTime'][msg.to] = datetime.strftime(now2,"%H:%M")
                 wait2['ROM'][msg.to] = {}
                 print wait2
-            elif msg.text == "Viewlastseen":
+            elif msg.text == "Viewlastseen","อ่าน","ใครแอบ":
               if msg.from_ in admin:
 		  if msg.to in wait2['readPoint']:
 	            if wait2["ROM"][msg.to].items() == []:
@@ -1727,7 +1737,7 @@ def bot(op):
                     for mi_d in wait["blacklist"]:
                         mc += "・" +cl.getContact(mi_d).displayName + "\n"
                     cl.sendText(msg.to,mc)
-            elif msg.text in ["Blist"]:
+            elif msg.text in ["Blist","เชคดำ"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.members]
@@ -1738,15 +1748,19 @@ def bot(op):
                     for mm in matched_list:
                         cocoa += "・" +cl.getContact(mm).displayName + "\n"
                     cl.sendText(msg.to,cocoa + "But it's a blacklist.。")
-            elif msg.text in ["Kill ban"]:
+            elif msg.text in ["Kill ban","เตะดำ"]:
                 if msg.toType == 2:
                     group = ki.getGroup(msg.to)
+		    group = kk.getGroup(msg.to)
+		    group = ks.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.members]
                     matched_list = []
                     for tag in wait["blacklist"]:
                         matched_list+=filter(lambda str: str == tag, gMembMids)
                     if matched_list == []:
                         ki.sendText(msg.to,"There wasn't a blacklist user。")
+			kk.sendText(msg.to,"There wasn't a blacklist user。")
+			ks.sendText(msg.to,"There wasn't a blacklist user。")
                         return
                     for jj in matched_list:
                         try:
@@ -1807,7 +1821,7 @@ def bot(op):
                     kc.sendText(msg.to," " + string + " ")
                     ka.sendText(msg.to," " + string + " ")    
 #-----------------------------------------------
-            elif "Speed" in msg.text:
+            elif "Speed","Sp" in msg.text:
                 start = time.time()
                 cl.sendText(msg.to, "ƛƇƇЄƧƧ ƧƤЄЄƊ ƜƛƖƬƖƝƓ")
                 elapsed_time = time.time() - start
