@@ -122,11 +122,11 @@ autoinvite = []
 autoleaveroom = []
 
 admins = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
-Rx5 = ["u36fbd1817f8257a179074dda4607eee4"]
-Rx4 = ["u2dca8b90516945d563e1cf62d3515be2"]
-Rx3 = ["uf7975d14fc686523347c83a7d9570332"]
-Rx2 = ["u33fab009d719040149bce490cfe33929"]
-Rx1 = ["ub4043866b3ce63c9808897c12f4f5f04"]
+Rx5 = ["ub4043866b3ce63c9808897c12f4f5f04"]
+Rx4 = ["ub4043866b3ce63c9808897c12f4f5f04"]
+Rx3 = ["ub4043866b3ce63c9808897c12f4f5f04"]
+Rx2 = ["ub4043866b3ce63c9808897c12f4f5f04"]
+Rx1 = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 Administrator = admins + Rx5 + Rx4 + Rx3 + Rx2 + Rx1
 AS = Rx2 + Rx1 + Rx3 + Rx4 + Rx5
 adminsA = admins + Rx3 + Rx5
