@@ -1512,8 +1512,8 @@ def bot(op):
 		   ks.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
 		   kc.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
 		   ka.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
-                    wait['pname'][msg.to] = True
-                    wait['pro_name'][msg.to] = cl.getGroup(msg.to).name
+                   wait['pname'][msg.to] = True
+                   wait['pro_name'][msg.to] = cl.getGroup(msg.to).name 
             elif "Namelock:off" in msg.text:
                 if msg.to in wait['pname']:
                     cl.sendText(msg.to,"⚡⚡ยกเลิกป้องกันชื่อ ห้อง ⚡⚡")
