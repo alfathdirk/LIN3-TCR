@@ -705,7 +705,7 @@ def bot(op):
                     group.preventJoinByTicket = False
                     cl.updateGroup(group)
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"ƲƦԼ ƠƝ ƛԼƦЄƛƊƳ。")
+                        cl.sendText(msg.to,"ƲƦԼ ƠƝ ƛԼƦЄƛƊƳ。")			
                     else:
                         cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƲƦԼ。")
                 else:
@@ -720,6 +720,7 @@ def bot(op):
                     cl.updateGroup(group)
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"ƲƦԼ ƇԼƠƧЄƊ。")
+			ki.sendText(msg.to," ⚡ลิ้งค์ ปิด OK.ปิดลิ้งแล้ว ❗")
                     else:
                         cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƲƦԼ。")
                 else:
