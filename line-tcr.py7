@@ -1841,7 +1841,7 @@ def bot(op):
                     kc.sendText(msg.to," " + string + " ")
                     ka.sendText(msg.to," " + string + " ")    
 #-----------------------------------------------
-            elif "Speed","Sp" in msg.text:
+            elif "Speed" in msg.text:
                 start = time.time()
                 cl.sendText(msg.to, "ƛƇƇЄƧƧ ƧƤЄЄƊ ƜƛƖƬƖƝƓ")
                 elapsed_time = time.time() - start
