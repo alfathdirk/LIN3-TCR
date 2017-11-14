@@ -1482,36 +1482,46 @@ def bot(op):
 					f=codecs.open('pnharfbot.json','w','utf-8')
 					json.dump(wait["pnharfbot"], f, sort_keys=True, indent=4,ensure_ascii=False)
 					protection.append(msg.to)
-					cl.sendText(msg.to,"ƬƲƦƝЄƊ ƠƝ")
+					cl.sendText(msg.to,"🔐 ⚡ป้องกัน กลุ่ม 👌⚡🔐")
+					ki.sendText(msg.to,"🔐 ⚡ป้องกัน กลุ่ม OK.รับทราบ.ป้องกันแล้ว⚡ 🔐✔️")
+					kk.sendText(msg.to,"🔐 ⚡ป้องกัน กลุ่ม OK.รับทราบ.ป้องกันแล้ว⚡ 🔐✔️")
+					ks.sendText(msg.to,"🔐 ⚡ป้องกัน กลุ่ม OK.รับทราบ.ป้องกันแล้ว⚡ 🔐✔️")
+					kc.sendText(msg.to,"🔐 ⚡ป้องกัน กลุ่ม OK.รับทราบ.ป้องกันแล้ว⚡ 🔐✔️")
+					ka.sendText(msg.to,"🔐 ⚡ป้องกัน กลุ่ม OK.รับทราบ.ป้องกันแล้ว⚡ 🔐✔️")
             elif "Protect:off" == msg.text:
 				try:
 					if msg.from_ in Administrator:
 						protection.remove(msg.to)
 						cl.sendText(msg.to,"ƬƲƦƝЄƊ ƠƑƑ")
 					else:
-						cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƑƑ")
+						cl.sendText(msg.to,"🀄 ทั้งหมด ยกเลิก การ ป้องกัน OK.❗")
+						ki.sendText(msg.to,"🀄 ยกเลิก.การป้องกัน OK.รับทราบ ยกเลิกการป้องกัน แล้ว❗👌")
+						kk.sendText(msg.to,"🀄 ยกเลิก.การป้องกัน OK.รับทราบ ยกเลิกการป้องกัน แล้ว❗👌")
+						ks.sendText(msg.to,"🀄 ยกเลิก.การป้องกัน OK.รับทราบ ยกเลิกการป้องกัน แล้ว❗👌")
+						kc.sendText(msg.to,"🀄 ยกเลิก.การป้องกัน OK.รับทราบ ยกเลิกการป้องกัน แล้ว❗👌")
+						ka.sendText(msg.to,"🀄 ยกเลิก.การป้องกัน OK.รับทราบ ยกเลิกการป้องกัน แล้ว❗👌")
 				except:
 					pass
             elif "Namelock:on" in msg.text:
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"❄️ป้องกันชื่อห้อง OK 👌 ƠƝ.")
-		    ki.sendText(msg.to,"❄️ป้องกันชื่อห้อง OK 👌 ƠƝ.")
-		    kk.sendText(msg.to,"❄️ป้องกันชื่อห้อง OK 👌 ƠƝ.")
-		    ks.sendText(msg.to,"❄️ป้องกันชื่อห้อง OK 👌 ƠƝ.")
-		    kc.sendText(msg.to,"❄️ป้องกันชื่อห้อง OK 👌 ƠƝ.")
-		    ka.sendText(msg.to,"❄️ป้องกันชื่อห้อง OK 👌 ƠƝ.")
+                   cl.sendText(msg.to,"ƬƲƦƝЄƊ ƠƝ.")
                 else:
-                    cl.sendText(msg.to,"🌟ไม่ได้ป้องกันชื่อห้อง🌟")
-		    ki.sendText(msg.to,"➡️ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌")
-		    kk.sendText(msg.to,"➡️ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌")
-		    ks.sendText(msg.to,"➡️ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌")
-		    kc.sendText(msg.to,"➡️ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌")
-		    ka.sendText(msg.to,"➡️ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌")
+                   cl.sendText(msg.to,"⚡🔐 ป้องกัน ชื่อ กลุ่ม 🔐")
+		   ki.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
+		   kk.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
+		   ks.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
+		   kc.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
+		   ka.sendText(msg.to,"🌟🔐 ป้องกันชื่อกลุ่ม OK รับทราบ ป้อง กันชื่อกลุ่มแล้ว 👌 🔐🌟")
                     wait['pname'][msg.to] = True
                     wait['pro_name'][msg.to] = cl.getGroup(msg.to).name
             elif "Namelock:off" in msg.text:
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"ƬƲƦƝ ƠƑƑ.")
+                    cl.sendText(msg.to,"⚡⚡ยกเลิกป้องกันชื่อ ห้อง ⚡⚡")
+		    ki.sendText(msg.to," 🀄🔓OK รับทราบ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌 🔓")
+		    kk.sendText(msg.to," 🀄🔓OK รับทราบ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌 🔓")
+		    ks.sendText(msg.to," 🀄🔓OK รับทราบ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌 🔓")
+		    kc.sendText(msg.to," 🀄🔓OK รับทราบ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌 🔓")
+		    ka.sendText(msg.to," 🀄🔓OK รับทราบ ยกเลิก ป้องกันชื่อห้อง แล้ว 👌 🔓")
                     del wait['pname'][msg.to]
                 else:
                     cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƑƑ")
@@ -1519,21 +1529,21 @@ def bot(op):
             elif "Blockinvite:on" == msg.text:
 				gid = msg.to
 				autocancel[gid] = "poni"
-				cl.sendText(msg.to,"🀄ป้องกันการเชิญ OK 🀄")
-				ki.sendText(msg.to,"🀄ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
-				kk.sendText(msg.to,"🀄ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
-				ks.sendText(msg.to,"🀄ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
-				kc.sendText(msg.to,"🀄ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
-				ka.sendText(msg.to,"🀄ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
+				cl.sendText(msg.to,"🀄 ป้องกันการเชิญ OK 🀄")
+				ki.sendText(msg.to,"🀄 รับทราบ.ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
+				kk.sendText(msg.to,"🀄 รับทราบ.ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
+				ks.sendText(msg.to,"🀄 รับทราบ.ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
+				kc.sendText(msg.to,"🀄 รับทราบ.ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
+				ka.sendText(msg.to,"🀄 รับทราบ.ป้องกันการเชิญ OK 👌 ป้องกัน แล้ว")
             elif "Blockinvite:off" == msg.text:
 				try:
 					del autocancel[msg.to]
-					cl.sendText(msg.to,"🀄ยกเลิก การป้องกัน การเชิญ แล้ว🀄")
-					ki.sendText(msg.to,"🀄ยกเลิกป้องกัน การเชิญ ปฎิบัติ  👌 OK ยกเลิก แล้้ว")
-					kk.sendText(msg.to,"🀄ยกเลิกป้องกัน การเชิญ ปฎิบัติ  👌 OK ยกเลิก แล้ว")
-					ks.sendText(msg.to,"🀄ยกเลิกป้องกัน การเชิญ ปฎิบัติ  👌 OK ยกเลิก แล้ว")
-					kc.sendText(msg.to,"🀄ยกเลิกป้องกัน การเชิญ ปฎิบัติ  👌 OK ยกเลิก แล้ว")
-					ka.sendText(msg.to,"🀄ยกเลิกป้องกัน การเชิญ ปฎิบัติ  👌 OK ยกเลิก แล้ว")
+					cl.sendText(msg.to,"🀄 ยกเลิก การป้องกัน การเชิญ แล้ว🀄")
+					ki.sendText(msg.to,"🀄 ยกเลิกป้องกัน การเชิญ รับทราบ  👌 OK ยกเลิก แล้้ว")
+					kk.sendText(msg.to,"🀄 ยกเลิกป้องกัน การเชิญ รับทราบ  👌 OK ยกเลิก แล้ว")
+					ks.sendText(msg.to,"🀄 ยกเลิกป้องกัน การเชิญ รับทราบ  👌 OK ยกเลิก แล้ว")
+					kc.sendText(msg.to,"🀄 ยกเลิกป้องกัน การเชิญ รับทราบ  👌 OK ยกเลิก แล้ว")
+					ka.sendText(msg.to,"🀄 ยกเลิกป้องกัน การเชิญ รับทราบ  👌 OK ยกเลิก แล้ว")
 				except:
 					pass                                 
 #---------------FUNGSI RATAIN GRUP TANPA KICK SESAMA BOT/Admin/Bots----------#
