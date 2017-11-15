@@ -1,4 +1,6 @@
-#BOT LIKE BLACK OF GAMER
+#BOTLIKE 
+
+#BLACK_OF_GAMER
 
 
 BOT AUTO LIKE BLACK OF GAMER
@@ -38,7 +40,7 @@ ls
 python2 botlike.py
 
 
-#CHANEL YOUTUBE
+#CHANELYOUTUBE
 
 Cara membuat bot auto like
 
@@ -50,7 +52,7 @@ thanks to by acil
 
 black of gamer
 
-#COMMAND BOT
+#COMMAND
 
 Tagall
 
