@@ -9,6 +9,10 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
+cl = LINETCR.LINE()
+cl.login(qr=True)
+cl.loginResult()
+
 ki = kk = kc = cl 
 
 print "login success"
@@ -96,8 +100,8 @@ wait = {
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
-    "protectionOn":True,
-    "atjointicket":False
+    "protectionOn":False,
+    "atjointicket":True
     }
 
 wait2 = {
