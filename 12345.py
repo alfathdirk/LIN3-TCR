@@ -2484,7 +2484,7 @@ def bot(op):
                 msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b '}
                 kj.sendMessage(msg)
                 kl.sendText(msg.to, "ผู้ดูแลเรื่องคำสั่งบอท:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c "}
+                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c '}
                 km.sendMessage(msg)
                 kn.sendText(msg.to, "ผู้ดูแลเรืีองการเข้าสู่ระบบ.บอท.:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
                 msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c '}
