@@ -85,7 +85,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage =""" ====[Self Bots PHET HECK BOT]====
 
-              ༺•㏒ ᴳᵘ ᵀᵃʳ ᴾʰᵉᵗ ㏒•༻
+                ꧁☢☠ℓℓஆՁゆຸ☠☡꧂
 
 ❂͜͡☆➣ Me
 ❂͜͡☆➣ Id
@@ -181,7 +181,7 @@ helpMessage =""" ====[Self Bots PHET HECK BOT]====
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 
 
-[By.❦〖Pђëŧ〗☞ᵀËÄMທஇລ❂قB❂T✓]
+       [꧁☢☠ℓℓஆՁゆຸ☠☡꧂]
 
 """
 helpMessage2 ="""╔════════════════╗
@@ -242,7 +242,7 @@ helpMessage2 ="""╔════════════════╗
 ║[Blockinvite: on/off]: 
 ╠═══════════════════╝
 ║
-║ [By.❦〖Pђëŧ〗☞ᵀËÄMທஇລ❂قB❂T✓]
+║ [꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ]
 ╚═══════════════════════════╝
 """
 
@@ -273,12 +273,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u00f827ce6641038d7c9b6704a9777dfa",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-self = ["u00f827ce6641038d7c9b6704a9777dfa",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = "u00f827ce6641038d7c9b6704a9777dfa"
-owner = "u00f827ce6641038d7c9b6704a9777dfa"
-admsa = "u00f827ce6641038d7c9b6704a9777dfa"
-adminMID = "u00f827ce6641038d7c9b6704a9777dfa"
+Bots = ["u2c7f708769a2eb35d9ae9f73cd366e0b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+self = ["u2c7f708769a2eb35d9ae9f73cd366e0b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = "u2c7f708769a2eb35d9ae9f73cd366e0b"
+owner = "u2c7f708769a2eb35d9ae9f73cd366e0b"
+admsa = "u2c7f708769a2eb35d9ae9f73cd366e0b"
+adminMID = "u2c7f708769a2eb35d9ae9f73cd366e0b"
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -286,15 +286,15 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me MY NAME IS PHET",
+    'message':"Thanks for add Me 🇹🇭 ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ 🇹🇭 ",
     "lang":"JP",
-    "comment":"AutoLike by Phet",
+    "comment":"AutoLike 🥀Love🥀 ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"༺ ㏒ Ᵽɧëȶ ㏒ ༻",
+    "cName":" ꧁☢☠ℓℓஆՁゆຸ☠☡꧂",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
@@ -2111,7 +2111,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u00f827ce6641038d7c9b6704a9777dfa":
+                if msg.from_ == "u2c7f708769a2eb35d9ae9f73cd366e0b":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
