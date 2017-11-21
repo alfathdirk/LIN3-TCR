@@ -74,18 +74,18 @@ kr.login(token="EmxBEWwTLeAFzWy4YIx8.8dn1/XO+lm5j1UydamMhsa.Vy3Yg/C5iHr08ocQtjgf
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="
+ks.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="
+kt.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
 kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage =""" ====[Self Bots PHET HECK BOT]====
 
-                ꧁☢☠ℓℓஆՁゆຸ☠☡꧂
+                🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 
 ❂͜͡☆➣ Me
 ❂͜͡☆➣ Id
@@ -181,7 +181,7 @@ helpMessage =""" ====[Self Bots PHET HECK BOT]====
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 
 
-       [꧁☢☠ℓℓஆՁゆຸ☠☡꧂]
+       [ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]
 
 """
 helpMessage2 ="""╔════════════════╗
@@ -242,7 +242,7 @@ helpMessage2 ="""╔════════════════╗
 ║[Blockinvite: on/off]: 
 ╠═══════════════════╝
 ║
-║ [꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ]
+║ [  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  ]
 ╚═══════════════════════════╝
 """
 
@@ -286,9 +286,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me 🇹🇭 ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ 🇹🇭 ",
+    'message':"Thanks for add Me  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  http://line.me/ti/p/j2nADgDkJf ► แมวชิ   http://line.me/ti/p/ShgslAPyYS ► แมวนุ  http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้  ",
     "lang":"JP",
-    "comment":"AutoLike 🥀Love🥀 ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ",
+    "comment":"AutoLike 🥀Love🥀  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  http://line.me/ti/p/j2nADgDkJf ► แมวชิ   http://line.me/ti/p/ShgslAPyYS ► แมวนุ  http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้  ",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -3140,8 +3140,18 @@ Viewlastseen   สั่งอ่าน
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 สนใจติดต่อที่
-http://line.me/ti/p/09T2waRE7l
-เพชรทีมทดลองบอท
+http://line.me/ti/p/ShgslAPyYS ► แมวนุ
+
+http://line.me/ti/p/j2nADgDkJf ► แมวชิ 
+
+http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
+꧁☢☠ℓℓஆՁゆຸ☠☡꧂
+
+꧁☢☠ℓℓஆՁՃิ☠☡꧂
+
+ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์
+
+🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 """)
 
@@ -3353,21 +3363,16 @@ http://line.me/ti/p/09T2waRE7l
             elif "Phet Keyy" in msg.text:
                 cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[{PHET HACK BOT}] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
 
-❦❧〖฿❂Ŧ〗☞ᵀËÄM ທஇລ❂ق B❂T✓
-​❦❧ ᵀËÄM ℓℓπ้ी૪ B❂T ✓
-❦❧ ᵀËÄM ທஇລ❂قB❂T ✓
-☠Ҝŋ β☢ȶȶ ƿℓαÿєᴿ☠
-✍ Ŧ€₳M ж Ħ₳ʗҜ฿❂Ŧ ✈​
-Ŧ€₳M ​✍ ທஇລ❂قীள้௭ิњ ✈
-☢Ŧ€₳M≈ನန้ণএ≈฿❂Ŧ☢
-･⋆ ざঝণのঝ  ⋆ ･
-♤ のю४ণধபӘທ ♤
-🇹🇭 ฿ΘŧŧĽÎη℮Ŧђάίłάήđ 🇹🇭
+۩✟ໄ௮่௮ิთਙԳのਙ ۞ ໄ௮่જӘபլのਙีઈ.۩
+.•*´¨`*•.¸¸.•*´¨`*•.¸¸.•*´¨`*•.¸¸.•*
+Әध่ךլਙี้धחՁ่ך௮ิთਙଣ้ךのิஇनะււnଏ श้ךଏமढัსიุ
+×º°”˜`”°º× ×º°”˜`”°º×
+🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
+↜«↜«↜««✾»»↝»↝»↝
+♡♥S ҉  ⓛⓞⓥⓔ N ҉ ♥♡
+(two hearts)¹⁵ / ⁸ /² ⁰ ¹ ⁶ (two hearts)
+ﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴ
 
-[By.🐯 हईທຮຮๅજईह 🐯]
-[By.β•`BF.บั้ม•`]
-[By.Gυ Tєʌм HʌcκBoт]
-[By.❦〖Ᵽɧëȶ〗☞ᵀËÄM ທஇລ❂ق B❂T✓]
 """)
 
             elif msg.text.lower() == 'ยกเลิก1':
@@ -3862,7 +3867,7 @@ http://line.me/ti/p/09T2waRE7l
 
             elif msg.text in ["Sett","Set"]:
                 print "Setting pick up..."
-                md = "✯= ꧁ 🐯हईທຮຮๅજईह🐯 ꧂=✯\n\n"
+                md = "✯=꧁☢☠ℓℓஆՁゆຸ☠☡꧂=✯\n\n"
                 if wait["likeOn"] == True: md+="􀜁􀇔􏿿 Auto like : on 􀜁􀄯􏿿\n"
                 else:md+="􀜁􀇔􏿿 Auto like : off 􀜁􀄰􏿿\n"
 #                if wait["copy"] == True: md+="�� Mimic : on\n"
@@ -4536,32 +4541,32 @@ http://line.me/ti/p/09T2waRE7l
 					for manusia in n:
 						cl.sendText(manusia,(bctxt))
 										 
-            elif msg.text in ["ทีมงาน","ทีมทดลองบอท"]:
+            elif msg.text in ["ครอบครัว","ทีม"]:
                 msg.contentType = 13
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[☢Ŧ€₳M≈ನန้ণএ≈฿❂Ŧ☢]\n[By.ทีมงานทีมทดลองบอท]")
-                cl.sendText(msg.to, "ผู้จัดการทีมงาน:🐯हईທຮຮๅજईह🐯")
-                msg.contentMetadata = {'mid': 'u820d01252fdcf2a539fa194bcfc3400e'}
+                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[ทีมขายบอท]\n[By. ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ]")
+                cl.sendText(msg.to, "หัวหน้าครอบครัว:꧁☢☠ℓℓஆՁゆຸ☠☡꧂")
+                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "รองผู้จัดการทีมงาน:β•`BF.บั้ม•`")
-                msg.contentMetadata = {'mid': 'u49974a7c78af9f3a8fec3e1dc7c646a9'}
+                cl.sendText(msg.to, "เมียหัวหน้าครอบครัว:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
+                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "ประธานใหญ่:เพชร ทีมทดลองบอท")
-                msg.contentMetadata = {'mid': 'u00f827ce6641038d7c9b6704a9777dfa'}
+                cl.sendText(msg.to, "ผู้ดูแลเรื่องคำสั่ง:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์")
+                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "ประธาน:ᴳᴜ ᵀᴇᵃᴍ ᴴa̴ᶜᴋ ᴮᴏᵀ")
-                msg.contentMetadata = {'mid': 'u3b35ed7d2edb147bf94e557513018a39'}
+                cl.sendText(msg.to, "ผู้ดูแลระบบบอท:꧁☢☠ℓℓஆՁゆຸ☠☡꧂")
+                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "รองประธาน:💫ীန้ສقัπั௭❁💫")
-                msg.contentMetadata = {'mid': 'u765bec541d4f21cf0afdceb69b4b2ebd'}
+                cl.sendText(msg.to, "ผู้ดูแลลูกค้าและการเข้าระบบบอท:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
+                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "รปภ.:✍Ŧ€₳M☬ж☬Ħ₳ʗҜ฿❂Ŧ✈๛")
-                msg.contentMetadata = {'mid': 'u409892727431e6e682114336a3be2784'}
+                cl.sendText(msg.to, "ผู้ดูแลลูกค้าและการเขาระบบบอท2:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์")
+                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "ตัวเเทนสมาชิก:🍃🍁NothingEid🍁🍃")
-                msg.contentMetadata = {'mid': 'ue9e8dbdbfa31491ddc82ed73950b45f0'}
+                cl.sendText(msg.to, "ตัวแทนขาย1:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
+                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "ตัวเเทนสมาชิก:Ĵöɱ💎Sтɪcκєʀᴸᶤᶰᵉ")
-                msg.contentMetadata = {'mid': 'u76be42d134b394580644e1eed2bed029'}
+                cl.sendText(msg.to, "ตัวแทนขาย2:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์")
+                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
                 cl.sendMessage(msg)
 
 #========================================
@@ -5416,7 +5421,7 @@ http://line.me/ti/p/09T2waRE7l
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"Invite members to join the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.เพชร ทีมทดลองบอท]")
+		    cl.sendText(op.param1,"Invite members to join the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂]")
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
 		    pass
@@ -5424,7 +5429,7 @@ http://line.me/ti/p/09T2waRE7l
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.เพชร ทีมทดลองบอท]")
+		    cl.sendText(op.param1,"มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ]")
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
@@ -5436,7 +5441,7 @@ http://line.me/ti/p/09T2waRE7l
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"You have updated the link of the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.เพชร ทีมทดลองบอท]")
+		    cl.sendText(op.param1,"You have updated the link of the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂]")
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
