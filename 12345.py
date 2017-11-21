@@ -2470,30 +2470,30 @@ def bot(op):
                 kt.sendMessage(msg)
             elif msg.text in ["Bot Team"]:
                 msg.contentType = 13
-                kk.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[☢Ŧ€₳M≈ನန้ণএ≈฿❂Ŧ☢]\n[By.ทีมงานทีมทดลองบอท]")
-                ki.sendText(msg.to, "ผู้จัดการทีมงาน:🐯हईທຮຮๅજईह🐯")
-                msg.contentMetadata = {'mid': 'u820d01252fdcf2a539fa194bcfc3400e'}
+                kk.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[ครอบครัว]\n[ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]")
+                ki.sendText(msg.to, "หัวหน้าครอบครัว: ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ")
+                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b '}
                 kc.sendMessage(msg)
-                kd.sendText(msg.to, "รองผู้จัดการทีมงาน:β•`BF.บั้ม•`")
-                msg.contentMetadata = {'mid': 'u49974a7c78af9f3a8fec3e1dc7c646a9'}
+                kd.sendText(msg.to, "เมียหัวหน้าครอบครัว:꧁☢☠ℓℓஆՁՃิ☠☡꧂ ")
+                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c '}
                 ke.sendMessage(msg)
-                kf.sendText(msg.to, "ประธานใหญ่:เพชร ทีมทดลองบอท")
-                msg.contentMetadata = {'mid': 'u00f827ce6641038d7c9b6704a9777dfa'}
+                kf.sendText(msg.to, "ผู้จัดการ ครอบครัว: ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ")
+                msg.contentMetadata = {'mid': ' u5068fff4398601a4b5fa1c9876ea170c '}
                 kg.sendMessage(msg)
-                kh.sendText(msg.to, "ประธาน:ᴳᴜ ᵀᴇᵃᴍ ᴴa̴ᶜᴋ ᴮᴏᵀ")
-                msg.contentMetadata = {'mid': 'u3b35ed7d2edb147bf94e557513018a39'}
+                kh.sendText(msg.to, "ผู้ดูแลระบบบอท:꧁☢☠ℓℓஆՁゆຸ☠☡꧂")
+                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b '}
                 kj.sendMessage(msg)
-                kl.sendText(msg.to, "รองประธาน:💫ীန้ສقัπั௭❁💫")
-                msg.contentMetadata = {'mid': 'u765bec541d4f21cf0afdceb69b4b2ebd'}
+                kl.sendText(msg.to, "ผู้ดูแลเรื่องคำสั่งบอท:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ")
+                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c "}
                 km.sendMessage(msg)
-                kn.sendText(msg.to, "รปภ.:✍Ŧ€₳M☬ж☬Ħ₳ʗҜ฿❂Ŧ✈๛")
-                msg.contentMetadata = {'mid': 'u409892727431e6e682114336a3be2784'}
+                kn.sendText(msg.to, "ผู้ดูแลเรืีองการเข้าสู่ระบบ.บอท.:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
+                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c '}
                 ko.sendMessage(msg)
-                kp.sendText(msg.to, "ตัวเเทนสมาชิก:🍃🍁NothingEid🍁🍃")
-                msg.contentMetadata = {'mid': 'ue9e8dbdbfa31491ddc82ed73950b45f0'}
+                kp.sendText(msg.to, "ตัวเเทนขาย1 :⬇️⬇️⬇️ติดต่อโดยตรง ⬇️⬇️⬇️")
+                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
                 kr.sendMessage(msg)
-                ks.sendText(msg.to, "ตัวเเทนสมาชิก:Ĵöɱ💎Sтɪcκєʀᴸᶤᶰᵉ")
-                msg.contentMetadata = {'mid': 'u76be42d134b394580644e1eed2bed029'}
+                ks.sendText(msg.to, "ตัวเเทนขาย2:⬇️⬇️⬇️ติดต่อโดยตรง⬇️⬇️⬇️")
+                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
                 kt.sendMessage(msg)
             elif "youtt " in msg.text.lower():
                 if msg.toType == 2:
