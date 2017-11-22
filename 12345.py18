@@ -83,31 +83,31 @@ kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage =""" ====[Self Bots PHET HECK BOT]====
+helpMessage =""" ====[🇹🇭〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗🇹🇭]====
 
-                🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
+                🇹🇭⬇️⬇️คำสั่งทั้งหมด⬇️⬇️🇹🇭
 
-❂͜͡☆➣ Me
-❂͜͡☆➣ Id
-❂͜͡☆➣ Mid
-❂͜͡☆➣ Gift
-❂͜͡☆➣ Mid @
-❂͜͡☆➣ Cn: Display Name
-❂͜͡☆➣ Cc: Clock Name
-❂͜͡☆➣ Mc:
-❂͜͡☆➣ Tl: text
-❂͜͡☆➣ Auto join: on/off
-❂͜͡☆➣ Auto add: on/off
-❂͜͡☆➣ Auto leave: on/off
-❂͜͡☆➣ Clock: on/off
-❂͜͡☆➣ Share on
-❂͜͡☆➣ Add message: text
-❂͜͡☆➣ Message:
-❂͜͡☆➣ Add comment: text
-❂͜͡☆➣ Comment: 
-❂͜͡☆➣ Cbroadcast text
-❂͜͡☆➣ Gbroadcast text
-❂͜͡☆➣ Reject
+❂͜͡🇹🇭➣ Me
+❂͜͡🇹🇭➣ Id
+❂͜͡🇹🇭➣ Mid
+❂͜͡🇹🇭➣ Gift
+❂͜͡🇹🇭➣ Mid @
+❂͜͡🇹🇭➣ Cn: Display Name
+❂͜͡🇹🇭➣ Cc: Clock Name
+❂͜͡🇹🇭➣ Mc:
+❂͜͡🇹🇭➣ Tl: text
+❂͜͡🇹🇭➣ Auto join: on/off
+❂͜͡🇹🇭➣ Auto add: on/off
+❂͜͡🇹🇭➣ Auto leave: on/off
+❂͜͡🇹🇭➣ Clock: on/off
+❂͜͡🇹🇭➣ Share on
+❂͜͡🇹🇭➣ Add message: text
+❂͜͡🇹🇭➣ Message:
+❂͜͡🇹🇭➣ Add comment: text
+❂͜͡🇹🇭➣ Comment: 
+❂͜͡🇹🇭➣ Cbroadcast text
+❂͜͡🇹🇭➣ Gbroadcast text
+❂͜͡🇹🇭➣ Reject
 
        ༺•㏒ Instruction Room ㏒•༻
 
@@ -180,8 +180,10 @@ helpMessage =""" ====[Self Bots PHET HECK BOT]====
   
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 
-
+           〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗
        [ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]
+       
+       http://line.me/ti/p/j2nADgDkJf
 
 """
 helpMessage2 ="""╔════════════════╗
@@ -294,7 +296,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":" ꧁☢☠ℓℓஆՁゆຸ☠☡꧂",
+    "cName":"꧁☢☠ℓℓஆՁՃิ☠☡꧂",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
@@ -3018,7 +3020,7 @@ def bot(op):
                         kr.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ks.acceptGroupInvitationByTicket(msg.to,Ticket)
                         kt.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[꧁☢☠ℓℓஆՁՃิ☠☡꧂]")
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -3030,37 +3032,37 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         ki.leaveGroup(msg.to)
-                        kk.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kk.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kk.leaveGroup(msg.to)
-                        kc.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kc.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kc.leaveGroup(msg.to)
-                        kd.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kd.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kd.leaveGroup(msg.to)
-                        ke.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        ke.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         ke.leaveGroup(msg.to)
-                        kf.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kf.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kf.leaveGroup(msg.to)
-                        kg.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kg.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kg.leaveGroup(msg.to)
-                        kh.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kh.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kh.leaveGroup(msg.to)
-                        kj.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kj.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kj.leaveGroup(msg.to)
-                        kl.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kl.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kl.leaveGroup(msg.to)
-                        km.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        km.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         km.leaveGroup(msg.to)
-                        kn.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kn.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kn.leaveGroup(msg.to)
-                        ko.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        ko.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         ko.leaveGroup(msg.to)
-                        kp.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kp.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kp.leaveGroup(msg.to)
-                        kq.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kq.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kq.leaveGroup(msg.to)
-                        kr.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
+                        kr.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
                         kr.leaveGroup(msg.to)
                         ks.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[💕ลาก่อย ลาก่อย💕]")
                         ks.leaveGroup(msg.to)
@@ -3370,7 +3372,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 ↜«↜«↜««✾»»↝»↝»↝
 ♡♥S ҉  ⓛⓞⓥⓔ N ҉ ♥♡
-(two hearts)¹⁵ / ⁸ /² ⁰ ¹ ⁶ (two hearts)
+💖¹⁵ / ⁸ /² ⁰ ¹ ⁶ 💖
 ﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴ
 
 """)
@@ -4570,7 +4572,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 cl.sendMessage(msg)
 
 #========================================
-            elif msg.text in ["Gu Tar","bot join all","มาหำ"]:
+            elif msg.text in ["Gu Tar","bot join all","เข้ามาลูก"]:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
 					G.preventJoinByTicket = False
