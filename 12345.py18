@@ -6,27 +6,27 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EmmM31C6Zq6EWRNup9Yb.lh9WH2MI6ZxzRP9ZZtzUcW.vfl7l2/eCQPSH+3GE9UyWSczIcGSDQUcTD5nRGOignc=")
+cl.login(token="EmOSezrjZn4jbJWXp4Mc.ggZ3LaX96pDQplX2qf9Fxa.7EnkPt2m+fgeoisLlgE+Ov/LfTBLQjQRZaQqLMhI8fc=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Em64SBKMIX41SeMCKQb4.Taq4zRpoy8MaIjFbl09Fba.Jba5o2kqfG1DSlYTlcQ/KACbfy3ix+Yn/ssOJdxQe6k=")
+ki.login(token="EmaVvITzZCcQjo7W3PJb.SK7Te9gWYUQsywhOX1wfYW.quWHfPMQMRB0oZQ0uPxOCxzkWuEojOkAkiHRKhR6eZA=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="Em9VIKsTiaGIlsZcFPI9.m+QWcDCzbafjVosqZ/m5kq.ohwyKEn/Ge0jdJDuT4PnAX/QVpljjPiKDsSn+gFhwuI=")
+kk.login(token="EmiogXguyGv03chUFqFe.Vz4+DI5v8TEUGtMphKulhG.j2aMaGOTGQUS8Fx0dz1ny8ebdpvXlDtAEQagsmivPQg=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="Em2HmZvkE4cyoLFijUL2.95DDfpXOzsm0FioN2vCdmG.n1GSAR13TkVFjvmrTZnh/Itk/Gz7RbgmChc8sGXdklM=")
+kc.login(token="EmzqcRBq7IcOUrzyLCPf.khw5oKeXkGNprT+dPTIyhW.RYojfWiLfx6InOw27rvsI71NY//HhLRMX0RjYqKZRZM=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EmMNxkESqtLLGdYimFx2.lCQlKffPrDvJ4C9I01fB4G.Mi9qkLaNGflBN5yHA7bBxM+zeW4zDyttagUtbJq73lQ=")
+kd.login(token="Emr2Vurv5MbVJBCstgO9.NLEdVUFE9zK89Wsdc4+xQq.7J5xt1VOfegPn01qfCODHgH5tRu672IZM/mecO3BL6c=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="Emp1ze1uZVSmIb6R1JD4.nVVrGx/cv6f5b03ArGFU5a.FVXgKB5umtIsSaLX3wEd//9PQvSLfJ0hFQD5DSlUkzw=")
+ke.login(token="EmxBEWwTLeAFzWy4YIx8.8dn1/XO+lm5j1UydamMhsa.Vy3Yg/C5iHr08ocQtjgfWvvZ2VovcPWDw0e8ClvDZfw=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
@@ -50,35 +50,35 @@ kl.login(token="EmvEEvB0owIRu8VhK8n7.0PhcaDg6BmNNypOZPKzWPW.AwT+5Mc8Tiy4+vg5cBor
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EmaVvITzZCcQjo7W3PJb.SK7Te9gWYUQsywhOX1wfYW.quWHfPMQMRB0oZQ0uPxOCxzkWuEojOkAkiHRKhR6eZA=")
+km.login(token="EmS1Hj6dGZ6cmtdcZItc.sZv3N17Hnvf3rV+iVgX3la.2643jQuYbz5C1dgZ9a7iDI0ViyP5gsXfiGEpydChXWg=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="EmiogXguyGv03chUFqFe.Vz4+DI5v8TEUGtMphKulhG.j2aMaGOTGQUS8Fx0dz1ny8ebdpvXlDtAEQagsmivPQg=")
+kn.login(token="EmTDEIC1aJzqp8vzgbId.WhaXXUtVTTGNCzAQZKoahq.O1cq++v6eOrgINr9mlYuQlSP16WQ1tSiNggI3vbqGIs=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EmzqcRBq7IcOUrzyLCPf.khw5oKeXkGNprT+dPTIyhW.RYojfWiLfx6InOw27rvsI71NY//HhLRMX0RjYqKZRZM=")
+ko.login(token="EmKLtcKPfJWLMXdovCX0.J+CcBoFrJAH0a2V2NbmW0a.cawl3+YskNvEscQkqlJ6gdKF/8PdwQ2SxztsJOfESlM=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="Emr2Vurv5MbVJBCstgO9.NLEdVUFE9zK89Wsdc4+xQq.7J5xt1VOfegPn01qfCODHgH5tRu672IZM/mecO3BL6c=")
+kp.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EmxBEWwTLeAFzWy4YIx8.8dn1/XO+lm5j1UydamMhsa.Vy3Yg/C5iHr08ocQtjgfWvvZ2VovcPWDw0e8ClvDZfw=")
+kq.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="EmKLtcKPfJWLMXdovCX0.J+CcBoFrJAH0a2V2NbmW0a.cawl3+YskNvEscQkqlJ6gdKF/8PdwQ2SxztsJOfESlM=")
+kr.login(token="Emp1ze1uZVSmIb6R1JD4.nVVrGx/cv6f5b03ArGFU5a.FVXgKB5umtIsSaLX3wEd//9PQvSLfJ0hFQD5DSlUkzw=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
+ks.login(token="EmMNxkESqtLLGdYimFx2.lCQlKffPrDvJ4C9I01fB4G.Mi9qkLaNGflBN5yHA7bBxM+zeW4zDyttagUtbJq73lQ=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
+kt.login(token="Em2HmZvkE4cyoLFijUL2.95DDfpXOzsm0FioN2vCdmG.n1GSAR13TkVFjvmrTZnh/Itk/Gz7RbgmChc8sGXdklM=")
 kt.loginResult()
 print "login success"
 reload(sys)
@@ -111,63 +111,63 @@ helpMessage =""" ====[🇹🇭〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗🇹🇭]=
 
        ༺•㏒ Instruction Room ㏒•༻
 
-❂͜͡☆➣ Creator
-❂͜͡☆➣ Gn: text
-❂͜͡☆➣ Invite: mid
-❂͜͡☆➣ Invite:on Send contact
-❂͜͡☆➣ Mybot
-❂͜͡☆➣ Allgift 
-❂͜͡☆➣ All mid
-❂͜͡☆➣ Cancel
-❂͜͡☆➣ Link on/off
-❂͜͡☆➣ ginfo
-❂͜͡☆➣ Gurl
-❂͜͡☆➣ Glist
-❂͜͡☆➣ Sett
-❂͜͡☆➣ Gcancel: number
-❂͜͡☆➣ Masuk / Join
-❂͜͡☆➣ Sayang
-❂͜͡☆➣ Beb
-❂͜͡☆➣ Cinta
-❂͜͡☆➣ Sayang pulang
-❂͜͡☆➣ Pulang
-❂͜͡☆➣ Ban @ target
-❂͜͡☆➣ Uban @ target
-❂͜͡☆➣ Ban -> send contact
-❂͜͡☆➣ Unban -> send contact
-❂͜͡☆➣ Comment bl/wl
-❂͜͡☆➣ Banlist
-❂͜͡☆➣ Cekban
-❂͜͡☆➣ Clear ban
-❂͜͡☆➣ Kill
-❂͜͡☆➣ Kill ban
-❂͜͡☆➣ Speed
-❂͜͡☆➣ Ambilin @ Steal dp target
-❂͜͡☆➣ Sampul @ Steal cover target
-❂͜͡☆➣ Copy @ All bot copy target
-❂͜͡☆➣ Mycopy @ Copy target profile
-❂͜͡☆➣ Keluar @ target
-❂͜͡☆➣ music
-❂͜͡☆➣ .reboot
-❂͜͡☆➣ Wikipedia
-❂͜͡☆➣ Cleanse
-❂͜͡☆➣ Pbot
-❂͜͡☆➣ Pcancel
-❂͜͡☆➣ P1-P18 Contact Bot
-❂͜͡☆➣ P1-P2 tl:
-❂͜͡☆➣ P1-P2 say
-❂͜͡☆➣ P1-P2 tag
-❂͜͡☆➣ P1-P2 invite:
-❂͜͡☆➣ P1-P3 mid
-❂͜͡☆➣ P1-P2 gurl
-❂͜͡☆➣ P1-P5 gift
-❂͜͡☆➣ P1-P18 rename:
-❂͜͡☆➣ All: rename all:
-❂͜͡☆➣ Allbio: Isi bio:
-❂͜͡☆➣ P1-P18 rgroup
-❂͜͡☆➣ P1-P5 join
-❂͜͡☆➣ P1-P5 bye
-❂͜͡☆➣ P1-P5 link on/off
+❂͜͡🍎➣ Creator
+❂͜͡🍎➣ Gn: text
+❂͜͡🍎➣ Invite: mid
+❂͜͡🍎➣ Invite:on Send contact
+❂͜͡🍎➣ Mybot
+❂͜͡🍎➣ Allgift 
+❂͜͡🍎➣ All mid
+❂͜͡🍎➣ Cancel
+❂͜͡🍎➣ Link on/off
+❂͜͡🍎➣ ginfo
+❂͜͡🍎➣ Gurl
+❂͜͡🍎➣ Glist
+❂͜͡🍎➣ Sett
+❂͜͡🍎➣ Gcancel: number
+❂͜͡🍎➣ Masuk / Join
+❂͜͡🍎➣ Sayang
+❂͜͡🍎➣ Beb
+❂͜͡🍎➣ Cinta
+❂͜͡🍎➣ Sayang pulang
+❂͜͡🍎➣ Pulang
+❂͜͡🍎➣ Ban @ target
+❂͜͡🍎➣ Uban @ target
+❂͜͡🍎➣ Ban -> send contact
+❂͜͡🍎➣ Unban -> send contact
+❂͜͡🍎➣ Comment bl/wl
+❂͜͡🍎➣ Banlist
+❂͜͡🍎➣ Cekban
+❂͜͡🍎➣ Clear ban
+❂͜͡🍎➣ Kill
+❂͜͡🍎➣ Kill ban
+❂͜͡🍎➣ Speed
+❂͜͡🍎➣ Ambilin @ Steal dp target
+❂͜͡🍎➣ Sampul @ Steal cover target
+❂͜͡🍎➣ Copy @ All bot copy target
+❂͜͡🍎➣ Mycopy @ Copy target profile
+❂͜͡🍎➣ Keluar @ target
+❂͜͡🍎➣ music
+❂͜͡🍎➣ .reboot
+❂͜͡🍎➣ Wikipedia
+❂͜͡🍎➣ Cleanse
+❂͜͡🍎➣ Pbot
+❂͜͡🍎➣ Pcancel
+❂͜͡🍎➣ P1-P18 Contact Bot
+❂͜͡🍎➣ P1-P2 tl:
+❂͜͡🍎➣ P1-P2 say
+❂͜͡🍎➣ P1-P2 tag
+❂͜͡🍎➣ P1-P2 invite:
+❂͜͡🍎➣ P1-P3 mid
+❂͜͡🍎➣ P1-P2 gurl
+❂͜͡🍎➣ P1-P5 gift
+❂͜͡🍎➣ P1-P18 rename:
+❂͜͡🍎➣ All: rename all:
+❂͜͡🍎➣ Allbio: Isi bio:
+❂͜͡🍎➣ P1-P18 rgroup
+❂͜͡🍎➣ P1-P5 join
+❂͜͡🍎➣ P1-P5 bye
+❂͜͡🍎➣ P1-P5 link on/off
 
      ༺•㏒ COMMAND Protect ㏒•༻
 
