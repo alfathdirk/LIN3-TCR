@@ -6,27 +6,27 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EmmM31C6Zq6EWRNup9Yb.lh9WH2MI6ZxzRP9ZZtzUcW.vfl7l2/eCQPSH+3GE9UyWSczIcGSDQUcTD5nRGOignc=")
+cl.login(token="EmuhZwdh052rHwK9E2Vc.ugJ+9dMgaAs1/HYyDUOxda.r/RvRTc7UK23/onpfn1HYyoJqnxXKE/QVxoLJYkrVrM=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Em64SBKMIX41SeMCKQb4.Taq4zRpoy8MaIjFbl09Fba.Jba5o2kqfG1DSlYTlcQ/KACbfy3ix+Yn/ssOJdxQe6k=")
+ki.login(token="EmS1Hj6dGZ6cmtdcZItc.sZv3N17Hnvf3rV+iVgX3la.2643jQuYbz5C1dgZ9a7iDI0ViyP5gsXfiGEpydChXWg=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="Em9VIKsTiaGIlsZcFPI9.m+QWcDCzbafjVosqZ/m5kq.ohwyKEn/Ge0jdJDuT4PnAX/QVpljjPiKDsSn+gFhwuI=")
+kk.login(token="EmTDEIC1aJzqp8vzgbId.WhaXXUtVTTGNCzAQZKoahq.O1cq++v6eOrgINr9mlYuQlSP16WQ1tSiNggI3vbqGIs=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="Em2HmZvkE4cyoLFijUL2.95DDfpXOzsm0FioN2vCdmG.n1GSAR13TkVFjvmrTZnh/Itk/Gz7RbgmChc8sGXdklM=")
+kc.login(token="EmKLtcKPfJWLMXdovCX0.J+CcBoFrJAH0a2V2NbmW0a.cawl3+YskNvEscQkqlJ6gdKF/8PdwQ2SxztsJOfESlM=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EmMNxkESqtLLGdYimFx2.lCQlKffPrDvJ4C9I01fB4G.Mi9qkLaNGflBN5yHA7bBxM+zeW4zDyttagUtbJq73lQ=")
+kd.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="Emp1ze1uZVSmIb6R1JD4.nVVrGx/cv6f5b03ArGFU5a.FVXgKB5umtIsSaLX3wEd//9PQvSLfJ0hFQD5DSlUkzw=")
+ke.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
@@ -70,15 +70,15 @@ kq.login(token="EmxBEWwTLeAFzWy4YIx8.8dn1/XO+lm5j1UydamMhsa.Vy3Yg/C5iHr08ocQtjgf
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="EmKLtcKPfJWLMXdovCX0.J+CcBoFrJAH0a2V2NbmW0a.cawl3+YskNvEscQkqlJ6gdKF/8PdwQ2SxztsJOfESlM=")
+kr.login(token="Em2HmZvkE4cyoLFijUL2.95DDfpXOzsm0FioN2vCdmG.n1GSAR13TkVFjvmrTZnh/Itk/Gz7RbgmChc8sGXdklM=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
+ks.login(token="EmMNxkESqtLLGdYimFx2.lCQlKffPrDvJ4C9I01fB4G.Mi9qkLaNGflBN5yHA7bBxM+zeW4zDyttagUtbJq73lQ=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
+kt.login(token="Emp1ze1uZVSmIb6R1JD4.nVVrGx/cv6f5b03ArGFU5a.FVXgKB5umtIsSaLX3wEd//9PQvSLfJ0hFQD5DSlUkzw=")
 kt.loginResult()
 print "login success"
 reload(sys)
@@ -282,12 +282,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u2c7f708769a2eb35d9ae9f73cd366e0b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-self = ["u2c7f708769a2eb35d9ae9f73cd366e0b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = "u2c7f708769a2eb35d9ae9f73cd366e0b"
-owner = "u2c7f708769a2eb35d9ae9f73cd366e0b"
-admsa = "u2c7f708769a2eb35d9ae9f73cd366e0b"
-adminMID = "u2c7f708769a2eb35d9ae9f73cd366e0b"
+Bots = [" u5068fff4398601a4b5fa1c9876ea170c ",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+self = [" u5068fff4398601a4b5fa1c9876ea170c ",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = "u5068fff4398601a4b5fa1c9876ea170c"
+owner = "u5068fff4398601a4b5fa1c9876ea170c"
+admsa = "u5068fff4398601a4b5fa1c9876ea170c"
+adminMID = "u5068fff4398601a4b5fa1c9876ea170c"
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -3378,8 +3378,6 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 ×º°”˜`”°º× ×º°”˜`”°º×
 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 ↜«↜«↜««✾»»↝»↝»↝
-♡♥S ҉  ⓛⓞⓥⓔ N ҉ ♥♡
-(two hearts)¹⁵ / ⁸ /² ⁰ ¹ ⁶ (two hearts)
 ﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴ
 
 """)
@@ -3439,7 +3437,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                           u = "[ปิด]"
                         else:
                             u = "[เปิด]"
-                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [By: เพชร ทีมทดลองบอท]")
+                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์]")
                     else:
                         cl.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
@@ -3876,7 +3874,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 
             elif msg.text in ["Sett","Set"]:
                 print "Setting pick up..."
-                md = "✯=꧁☢☠ℓℓஆՁゆຸ☠☡꧂=✯\n\n"
+                md = "✯= ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ =✯\n\n"
                 if wait["likeOn"] == True: md+="􀜁􀇔􏿿 Auto like : on 􀜁􀄯􏿿\n"
                 else:md+="􀜁􀇔􏿿 Auto like : off 􀜁􀄰􏿿\n"
 #                if wait["copy"] == True: md+="�� Mimic : on\n"
@@ -4579,7 +4577,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 cl.sendMessage(msg)
 
 #========================================
-            elif msg.text in ["Gu Tar","bot join all","มาหำ"]:
+            elif msg.text in ["Gu Tar","bot join all","*ทีม"]:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
 					G.preventJoinByTicket = False
@@ -5430,7 +5428,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"Invite members to join the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂]")
+		    cl.sendText(op.param1,"Invite members to join the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์]")
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
 		    pass
@@ -5438,7 +5436,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ]")
+		    cl.sendText(op.param1,"มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์]")
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
@@ -5450,7 +5448,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"You have updated the link of the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂]")
+		    cl.sendText(op.param1,"You have updated the link of the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์]")
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
@@ -5547,7 +5545,7 @@ def nameUpdate():
             #pass
             if wait["clock"] == True:
                 now2 = datetime.now()
-                nowT = datetime.strftime(now2,"༺%H:%M༻")
+                nowT = datetime.strftime(now2,"꧁%H:%M꧂")
                 profile = cl.getProfile()
                 profile.displayName = wait["cName"] + nowT
                 cl.updateProfile(profile)
