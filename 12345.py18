@@ -4572,7 +4572,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 cl.sendMessage(msg)
 
 #========================================
-            elif msg.text in ["Gu Tar","bot join all","ทีม"]:
+            elif msg.text in ["Gu Tar","bot join all","ชิชิ"]:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
 					G.preventJoinByTicket = False
