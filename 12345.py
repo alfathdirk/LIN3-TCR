@@ -2111,7 +2111,7 @@ def bot(op):
                 cl.leaveRoom(op.param1)
         if op.type == 25:
             msg = op.message
-            if msg.toType == 0:
+            if msg.toType == 13:
                 msg.to = msg.from_
                 if msg.from_ == "u2c7f708769a2eb35d9ae9f73cd366e0b":
                     if "join:" in msg.text:
