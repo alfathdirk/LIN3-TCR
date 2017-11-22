@@ -296,7 +296,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":" ꧁☢☠ℓℓஆՁゆຸ☠☡꧂",
+    "cName":" ꧁⚡☠ℓℓஆՁゆຸ☠⚡꧂",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
