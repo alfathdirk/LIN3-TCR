@@ -5540,7 +5540,7 @@ def nameUpdate():
             #pass
             if wait["clock"] == True:
                 now2 = datetime.now()
-                nowT = datetime.strftime(now2,"꧁%H:%M꧂")
+                nowT = datetime.strftime(now2,"〖%H:%M〗")
                 profile = cl.getProfile()
                 profile.displayName = wait["cName"] + nowT
                 cl.updateProfile(profile)
