@@ -275,12 +275,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u2c7f708769a2eb35d9ae9f73cd366e0b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-self = ["u2c7f708769a2eb35d9ae9f73cd366e0b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = "u2c7f708769a2eb35d9ae9f73cd366e0b"
-owner = "u2c7f708769a2eb35d9ae9f73cd366e0b"
-admsa = "u2c7f708769a2eb35d9ae9f73cd366e0b"
-adminMID = "u2c7f708769a2eb35d9ae9f73cd366e0b"
+Bots = ["u186cf7940c7de8f76a3cbc76405f5f5c",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+self = ["u186cf7940c7de8f76a3cbc76405f5f5c",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = "u186cf7940c7de8f76a3cbc76405f5f5c"
+owner = "u186cf7940c7de8f76a3cbc76405f5f5c"
+admsa = "u186cf7940c7de8f76a3cbc76405f5f5c"
+adminMID = "u186cf7940c7de8f76a3cbc76405f5f5c"
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -3432,7 +3432,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                           u = "[ปิด]"
                         else:
                             u = "[เปิด]"
-                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [By: เพชร ทีมทดลองบอท]")
+                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [꧁☢☠ℓℓஆՁՃิ☠☡꧂]")
                     else:
                         cl.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
@@ -4572,7 +4572,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 cl.sendMessage(msg)
 
 #========================================
-            elif msg.text in ["Gu Tar","bot join all","เข้ามาลูก"]:
+            elif msg.text in ["Gu Tar","bot join all","ทีม"]:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
 					G.preventJoinByTicket = False
@@ -5423,7 +5423,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"Invite members to join the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂]")
+		    cl.sendText(op.param1,"Invite members to join the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[꧁☢☠ℓℓஆՁՃิ☠☡꧂]")
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
 		    pass
@@ -5431,7 +5431,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ]")
+		    cl.sendText(op.param1,"มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[꧁☢☠ℓℓஆՁՃิ☠☡꧂]")
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
@@ -5443,7 +5443,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"You have updated the link of the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[By.꧁☢☠ℓℓஆՁゆຸ☠☡꧂]")
+		    cl.sendText(op.param1,"You have updated the link of the group\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n[꧁☢☠ℓℓஆՁՃิ☠☡꧂]")
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
@@ -5540,7 +5540,7 @@ def nameUpdate():
             #pass
             if wait["clock"] == True:
                 now2 = datetime.now()
-                nowT = datetime.strftime(now2,"༺%H:%M༻")
+                nowT = datetime.strftime(now2,"꧁%H:%M꧂")
                 profile = cl.getProfile()
                 profile.displayName = wait["cName"] + nowT
                 cl.updateProfile(profile)
