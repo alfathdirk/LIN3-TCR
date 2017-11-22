@@ -2116,11 +2116,11 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u2c7f708769a2eb35d9ae9f73cd366e0b":
+                if msg.from_ == "u5068fff4398601a4b5fa1c9876ea170c":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
