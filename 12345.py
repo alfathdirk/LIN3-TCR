@@ -3050,21 +3050,21 @@ def bot(op):
                         kj.leaveGroup(msg.to)
                         kl.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
                         kl.leaveGroup(msg.to)
-                        km.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        km.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         km.leaveGroup(msg.to)
-                        kn.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kn.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kn.leaveGroup(msg.to)
-                        ko.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        ko.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         ko.leaveGroup(msg.to)
-                        kp.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kp.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kp.leaveGroup(msg.to)
-                        kq.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kq.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kq.leaveGroup(msg.to)
-                        kr.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kr.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kr.leaveGroup(msg.to)
-                        ks.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        ks.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[💕ลาก่อย ลาก่อย💕]")
                         ks.leaveGroup(msg.to)
-                        kt.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kt.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[💕ลาก่อย ลาก่อย💕]")
                         kt.leaveGroup(msg.to)
                     except:
                         pass
@@ -4289,7 +4289,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 print "[Command]Speed palsu executed"
 
             elif msg.text in ["Keyy"]:
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[By.เพชร ทีมทดลองบอท]")
+                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[ ꧁☢☠ℓℓஆՁՃิ☠☡꧂ ]")
 
 #========================================
             elif msg.text in ["Botbb"]:
@@ -4403,7 +4403,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                     cl.sendText(msg.to, str (e))
 
 #=================================================
-            elif msg.text == "ตั้งเวลา":
+            elif msg.text == "นับ":
                     cl.sendText(msg.to, "!โปรดรอ..กรุณาพิมพ์ อ่าน")
                     try:
                         del wait2['readPoint'][msg.to]
