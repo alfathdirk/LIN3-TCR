@@ -83,98 +83,98 @@ kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage =""" ====[Self Bots PHET HECK BOT]====
+helpMessage =""" ====[SelfBot꧁☢☠ℓℓஆՁゆຸ☠☡꧂]====
 
                 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 
-❂͜͡☆➣ Me
-❂͜͡☆➣ Id
-❂͜͡☆➣ Mid
-❂͜͡☆➣ Gift
-❂͜͡☆➣ Mid @
-❂͜͡☆➣ Cn: Display Name
-❂͜͡☆➣ Cc: Clock Name
-❂͜͡☆➣ Mc:
-❂͜͡☆➣ Tl: text
-❂͜͡☆➣ Auto join: on/off
-❂͜͡☆➣ Auto add: on/off
-❂͜͡☆➣ Auto leave: on/off
-❂͜͡☆➣ Clock: on/off
-❂͜͡☆➣ Share on
-❂͜͡☆➣ Add message: text
-❂͜͡☆➣ Message:
-❂͜͡☆➣ Add comment: text
-❂͜͡☆➣ Comment: 
-❂͜͡☆➣ Cbroadcast text
-❂͜͡☆➣ Gbroadcast text
-❂͜͡☆➣ Reject
+❂͜͡⚡➣ Me
+❂͜͡⚡➣ Id
+❂͜͡⚡➣ Mid
+❂͜͡⚡➣ Gift
+❂͜͡⚡➣ Mid @
+❂͜͡⚡➣ Cn: Display Name
+❂͜͡⚡➣ Cc: Clock Name
+❂͜͡⚡➣ Mc:
+❂͜͡⚡➣ Tl: text
+❂͜͡⚡➣ Auto join: on/off
+❂͜͡⚡➣ Auto add: on/off
+❂͜͡⚡➣ Auto leave: on/off
+❂͜͡⚡➣ Clock: on/off
+❂͜͡⚡➣ Share on
+❂͜͡⚡➣ Add message: text
+❂͜͡⚡➣ Message:
+❂͜͡⚡➣ Add comment: text
+❂͜͡⚡➣ Comment: 
+❂͜͡⚡➣ Cbroadcast text
+❂͜͡⚡➣ Gbroadcast text
+❂͜͡⚡➣ Reject
 
        ༺•㏒ Instruction Room ㏒•༻
 
-❂͜͡☆➣ Creator
-❂͜͡☆➣ Gn: text
-❂͜͡☆➣ Invite: mid
-❂͜͡☆➣ Invite:on Send contact
-❂͜͡☆➣ Mybot
-❂͜͡☆➣ Allgift 
-❂͜͡☆➣ All mid
-❂͜͡☆➣ Cancel
-❂͜͡☆➣ Link on/off
-❂͜͡☆➣ ginfo
-❂͜͡☆➣ Gurl
-❂͜͡☆➣ Glist
-❂͜͡☆➣ Sett
-❂͜͡☆➣ Gcancel: number
-❂͜͡☆➣ Masuk / Join
-❂͜͡☆➣ Sayang
-❂͜͡☆➣ Beb
-❂͜͡☆➣ Cinta
-❂͜͡☆➣ Sayang pulang
-❂͜͡☆➣ Pulang
-❂͜͡☆➣ Ban @ target
-❂͜͡☆➣ Uban @ target
-❂͜͡☆➣ Ban -> send contact
-❂͜͡☆➣ Unban -> send contact
-❂͜͡☆➣ Comment bl/wl
-❂͜͡☆➣ Banlist
-❂͜͡☆➣ Cekban
-❂͜͡☆➣ Clear ban
-❂͜͡☆➣ Kill
-❂͜͡☆➣ Kill ban
-❂͜͡☆➣ Speed
-❂͜͡☆➣ Ambilin @ Steal dp target
-❂͜͡☆➣ Sampul @ Steal cover target
-❂͜͡☆➣ Copy @ All bot copy target
-❂͜͡☆➣ Mycopy @ Copy target profile
-❂͜͡☆➣ Keluar @ target
-❂͜͡☆➣ music
-❂͜͡☆➣ .reboot
-❂͜͡☆➣ Wikipedia
-❂͜͡☆➣ Cleanse
-❂͜͡☆➣ Pbot
-❂͜͡☆➣ Pcancel
-❂͜͡☆➣ P1-P18 Contact Bot
-❂͜͡☆➣ P1-P2 tl:
-❂͜͡☆➣ P1-P2 say
-❂͜͡☆➣ P1-P2 tag
-❂͜͡☆➣ P1-P2 invite:
-❂͜͡☆➣ P1-P3 mid
-❂͜͡☆➣ P1-P2 gurl
-❂͜͡☆➣ P1-P5 gift
-❂͜͡☆➣ P1-P18 rename:
-❂͜͡☆➣ All: rename all:
-❂͜͡☆➣ Allbio: Isi bio:
-❂͜͡☆➣ P1-P18 rgroup
-❂͜͡☆➣ P1-P5 join
-❂͜͡☆➣ P1-P5 bye
-❂͜͡☆➣ P1-P5 link on/off
+❂͜͡🌟➣ Creator
+❂͜͡🌟➣ Gn: text
+❂͜͡🌟➣ Invite: mid
+❂͜͡🌟➣ Invite:on Send contact
+❂͜͡🌟➣ Mybot
+❂͜͡🌟➣ Allgift 
+❂͜͡🌟➣ All mid
+❂͜͡🌟➣ Cancel
+❂͜͡🌟➣ Link on/off
+❂͜͡🌟➣ ginfo
+❂͜͡🌟➣ Gurl
+❂͜͡🌟➣ Glist
+❂͜͡🌟➣ Sett
+❂͜͡🌟➣ Gcancel: number
+❂͜͡🌟➣ Masuk / Join
+❂͜͡🌟➣ Sayang
+❂͜͡🌟➣ Beb
+❂͜͡🌟➣ Cinta
+❂͜͡🌟➣ Sayang pulang
+❂͜͡🌟➣ Pulang
+❂͜͡🌟➣ Ban @ target
+❂͜͡🌟➣ Uban @ target
+❂͜͡🌟➣ Ban -> send contact
+❂͜͡🌟➣ Unban -> send contact
+❂͜͡🌟➣ Comment bl/wl
+❂͜͡🌟➣ Banlist
+❂͜͡🌟➣ Cekban
+❂͜͡🌟➣ Clear ban
+❂͜͡🌟➣ Kill
+❂͜͡🌟➣ Kill ban
+❂͜͡🌟➣ Speed
+❂͜͡🌟➣ Ambilin @ Steal dp target
+❂͜͡🌟➣ Sampul @ Steal cover target
+❂͜͡🌟➣ Copy @ All bot copy target
+❂͜͡🌟➣ Mycopy @ Copy target profile
+❂͜͡🌟➣ Keluar @ target
+❂͜͡🌟➣ music
+❂͜͡🌟➣ .reboot
+❂͜͡🌟➣ Wikipedia
+❂͜͡🌟➣ Cleanse
+❂͜͡⚡➣ Pbot
+❂͜͡⚡➣ Pcancel
+❂͜͡⚡➣ P1-P18 Contact Bot
+❂͜͡⚡➣ P1-P2 tl:
+❂͜͡⚡➣ P1-P2 say
+❂͜͡⚡➣ P1-P2 tag
+❂͜͡⚡➣ P1-P2 invite:
+❂͜͡⚡➣ P1-P3 mid
+❂͜͡⚡➣ P1-P2 gurl
+❂͜͡⚡➣ P1-P5 gift
+❂͜͡⚡➣ P1-P18 rename:
+❂͜͡⚡➣ All: rename all:
+❂͜͡⚡➣ Allbio: Isi bio:
+❂͜͡⚡➣ P1-P18 rgroup
+❂͜͡⚡➣ P1-P5 join
+❂͜͡⚡➣ P1-P5 bye
+❂͜͡⚡➣ P1-P5 link on/off
 
      ༺•㏒ COMMAND Protect ㏒•༻
 
-❂͜͡☆➣ Qr on/off
-❂͜͡☆➣ Backup on/off
-❂͜͡☆➣ Protect On/off
-❂͜͡☆➣ Namelock On/off
+❂͜͡🌟➣ Qr on/off
+❂͜͡🌟➣ Backup on/off
+❂͜͡🌟➣ Protect On/off
+❂͜͡🌟➣ Namelock On/off
 
         
   
@@ -182,7 +182,9 @@ helpMessage =""" ====[Self Bots PHET HECK BOT]====
 
 
        [ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]
-
+            ꧁☢☠ℓℓஆՁゆຸ☠☡꧂
+	 
+	 http://line.me/ti/p/ShgslAPyYS 
 """
 helpMessage2 ="""╔════════════════╗
 ║〘ᏢᏌᏴᏞᏆᏟ ᏟᎾᎷᎷᎪNᎠ〙
@@ -3030,25 +3032,25 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         ki.leaveGroup(msg.to)
-                        kk.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kk.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kk.leaveGroup(msg.to)
-                        kc.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kc.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kc.leaveGroup(msg.to)
-                        kd.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kd.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kd.leaveGroup(msg.to)
-                        ke.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        ke.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         ke.leaveGroup(msg.to)
-                        kf.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kf.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kf.leaveGroup(msg.to)
-                        kg.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kg.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kg.leaveGroup(msg.to)
-                        kh.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kh.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kh.leaveGroup(msg.to)
-                        kj.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kj.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kj.leaveGroup(msg.to)
-                        kl.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[By.เพชร ทีมมดลองบอท]")
+                        kl.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         kl.leaveGroup(msg.to)
                         km.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[ลาก่อย ลาก่อย]")
                         km.leaveGroup(msg.to)
@@ -3370,7 +3372,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 ↜«↜«↜««✾»»↝»↝»↝
 ♡♥S ҉  ⓛⓞⓥⓔ N ҉ ♥♡
-(two hearts)¹⁵ / ⁸ /² ⁰ ¹ ⁶ (two hearts)
+💖¹⁵ / ⁸ /² ⁰ ¹ ⁶ 💖
 ﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴ
 
 """)
@@ -3430,7 +3432,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                           u = "[ปิด]"
                         else:
                             u = "[เปิด]"
-                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [By: เพชร ทีมทดลองบอท]")
+                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.t"\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [꧁☢☠ℓℓஆՁゆຸ☠☡꧂]")
                     else:
                         cl.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
@@ -4179,7 +4181,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
             elif msg.text in ["Up"]:
                 if wait["clock"] == True:
                     now2 = datetime.now()
-                    nowT = datetime.strftime(now2,"༺%H:%M༻")
+                    nowT = datetime.strftime(now2,"〖%H:%M〗")
                     profile = cl.getProfile()
                     profile.displayName = wait["cName"] + nowT
                     cl.updateProfile(profile)
