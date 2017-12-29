@@ -55,6 +55,7 @@ helpMessage =""" Chivas Bot
 [Bye]
 [Kill ban]
 [Kill 「@」]
+[clear ban] 
 [Ban 「@」] By Tag
 [Unban 「@」] By Tag
 [Ban︎] Share Contact
@@ -726,6 +727,11 @@ def bot(op):
                         ki.sendText(msg.to,"Can not be used outside the group")
                     else:
                         ki.sendText(msg.to,"Not for use less than group")
+            elif msg.text.lower() == 'clear ban':
+                if msg.from_ in admin:
+                    wait["blacklist"] = {}
+                    cl.sendText(msg.to,"ヽ( ^ω^)ﾉ└ ❉Unbanned All Success❉ ┐") 
+
             elif msg.text in ["Cv2 curl","Cv2 link off"]:
                 if msg.toType == 2:
                     X = kk.getGroup(msg.to)
