@@ -127,7 +127,7 @@ class LINE:
 
         :param url: image url to send
         """
-        path = 'tmp/pythonLine.data'
+        path = 'LINETCR/pythonLine.data'
 
         r = requests.get(url, stream=True)
         if r.status_code == 200:
