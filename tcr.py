@@ -42,6 +42,7 @@ helpMessage =""" Chivas Bot
 [Ourl]
 [url]
 [url:「Group ID」]
+[Steal pp @] 
 [Invite：「mid」]
 [Kick：「mid」]
 [Ginfo]
@@ -1121,6 +1122,26 @@ def bot(op):
                 for i in gid:
                     h += "[%s]:%s\n" % (cl.getGroup(i).name,i)
                 cl.sendText(msg.to,h)
+		
+            elif "Steal pp @" in msg.text:
+                if msg.toType == 2:
+                    cover = msg.text.replace("Steal pp @","")
+                    _nametarget = cover.rstrip('  ')
+                    gs = cl.getGroup(msg.to)
+                    targets = []
+                    for g in gs.members:
+                        if _nametarget == g.displayName:
+                            targets.append(g.mid)
+                    if targets == []:
+                        cl.sendText(msg.to,"Not found")
+                    else:
+                        for target in targets:
+                            try:
+                                h = cl.getContact(target)
+                                cl.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
+                            except Exception as error:
+                                print error
+                                cl.sendText(msg.to,"Upload image failed.")
             elif msg.text in ["Cancelall"]:
                 gid = cl.getGroupIdsInvited()
                 for i in gid:
